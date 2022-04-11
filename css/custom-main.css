@@ -1,0 +1,514 @@
+@charset "UTF-8";
+/* CSS Document custom css for NRCA site. Kara Bonsack August 2016 */
+/*______________________________________________*/
+body {/*background controlled in modified container css*/
+	/* [disabled]background-color: #CDDBE8!important; */
+}
+/*______________________________________________*/
+/*wrappers*/
+/*using these instead of container-fluid allows for full width background color but not content*/
+.wrapper-blue {
+	background-color: #1C6987;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+.wrapper-blue h2 {
+	margin-top: 0;
+}
+.wrapper-ltblue {
+	background-color: #C3D4E3;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.wrapper-white {
+	background-color: #FFF;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.wrapper-gray {
+	background-color: #EFEFEF;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.box-ftdrkr {
+	background-color: #145E7A;
+	margin-right: 7px;
+	margin-left: 7px;
+	padding: 10px;
+}
+/*______________________________________________*/
+/*UConn Banner. Main css in banner.css*/
+#uconn-banner { /*banner container/wrap*/
+	background-color: #fff;
+}
+#uconn-banner h1 { /*KB*/
+	margin-top: none; /*KB for less top margin*/
+}
+.site-titles {
+	margin-top: 20px;
+}
+#site-title { /*title text*/
+	line-height: .9em;
+}
+#site-title a:link, #site-title a:visited { /*title text*/
+	color: #1B6987;
+}
+#super-title a:link { /*title text as a link*/
+	color: #ADAFB1;
+}
+#site-header{
+	padding-top: 10px;
+	padding-left: 15px;
+}
+.banner-logo {
+	padding-bottom: 10px;
+	padding-left: 15px;
+}
+
+/*______________________________________________*/	
+/* header styles*/
+h1, h2, h3, h4, h5, h6 {
+	/*font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+	font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif;
+}
+h1 {
+	color: rgba(0,154,95,1.00);
+}
+h2 {
+	color: rgba(0,154,95,1.00);
+}
+h3 {
+	color: rgba(15,97,171,1.00);
+}
+h4 {
+	color:rgba(0,154,95,1.00);
+}
+h5 {
+	color:rgba(15,97,171,1.00);
+	font-size: 18px;
+}
+h6 {
+	color: #00A767;
+}
+a {
+	color: #337AB7;
+}
+a:hover {
+	color: #238540;
+	text-decoration: underline;
+}
+ol li, ul li { 
+	padding: 5px 0px; 
+}
+ul.arrow {
+	margin-left:.9em;
+}
+ul.arrow li {
+	padding-left:1.6em;
+	list-style-type:none;	
+}
+ul.arrow ul {
+	margin-left:1.2em;
+}
+ul.arrow ul li {
+	list-style-type:circle;
+	padding-left:0;
+	background:none;
+}
+.glyphicon-home {
+	color: #1B6987;
+	font-family: 'Glyphicons Halflings'!important;
+}
+
+/*______________________________________________*/	
+/* jumbotron*/
+.jumbotron_img {
+	/* [disabled]color: #FFFFFF; */
+	/* [disabled]padding-top: 10px; */
+	/* [disabled]padding-bottom: 10px; */
+	/* [disabled]height: 150px; */
+	/* [disabled]background-size: cover; */ /*background-color: #E3EBF2;*/
+}
+.jumbotron {
+	border: none;
+	/* [disabled]color: #FFFFFF; */
+	/* [disabled]padding-top: 30px; */
+	margin-bottom: 0px;
+	background-image: url("../images/nrca-banner2.jpg");
+	background-size: cover;
+	/* [disabled]background-color: #104C9B; */
+}
+.jumbotron h1, .jumbotron .h1 {
+	color: #fff;
+	font-size: 3.5em;
+	text-shadow: 1px 1px 2px #5A5B5B,0 0 25px #1B6987,0 0 5px darkblue;
+}
+@media (max-width:1200px) {  /*KB modified*/
+.jumbotron h1, .jumbotron .h1 {
+	font-size: 3em; 
+}
+}
+@media (max-width:900px) {  /*KB modified*/
+.jumbotron h1, .jumbotron .h1 {
+	font-size: 2.5em; 
+}
+}
+@media (max-width:768px) {  /*KB modified*/
+.jumbotron h1, .jumbotron .h1 {
+	font-size: 2em;
+}
+}
+@media (max-width:544px) {  /*KB modified*/
+.jumbotron h1, .jumbotron .h1 {
+	font-size: 2em;
+}
+}
+.jumbotron .small { /*KB modified*/
+}
+/*______________________________________________________*/
+/* navbar */
+#uconn-banner dl, #uconn-banner menu, #uconn-banner ol, #uconn-banner ul {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#uconn-banner menu, #uconn-banner ol, #uconn-banner ul {
+    padding: 0;
+}
+.navbar {
+	min-height:32px!important; /*online help*/
+	background-color: #C3D4E3;
+	border: none;
+	margin-bottom: 0px;
+	border-radius: 0px;
+}
+.navbar-default .navbar-nav > li > a {/* text color control */
+	color: #1B6987;
+	font-weight: bold;
+	margin-left: 10px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	letter-spacing: 1px;
+}
+.navbar-default .navbar-nav > li > a:hover, a:focus { /*text hover control*/
+	color: #00A767;
+	background-color: none;
+}
+
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:focus, 
+.navbar-default .navbar-nav > .open > a:hover {
+    color: #00A767;
+}
+/*_____nav dropdown css________________*/
+.navbar-default .dropdown-menu {
+	background-color: #C3D4E3;
+	border-color: #ADC4D8;
+}
+.navbar-default .dropdown-menu a {
+	color: #1B6987;
+}
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #00A767;
+}
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #00A767;
+}
+.divider {/* space between dropdown menu items */
+}
+/*_____nav toggle box___________*/
+.navbar-default .navbar-toggle {
+  	border-color: #1B6987;
+	background-color: #fff;
+	margin: 3px!important;
+}
+.navbar-default .navbar-toggle:hover {
+  background-color: #C3D4E3;
+}
+.navbar-default .navbar-toggle:focus {
+  background-color: #fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #1B6987;
+}
+/*________optional right side subnav_____________*/
+.navbar-right a{
+	color: #2590BA!important; /* text control*/
+	font-style: normal!important;
+	font-weight: normal!important;
+}
+.navbar-right a:hover{
+	color: #00A767!important; /* text control*/
+}
+.subsubnav a {/* text color control */
+	color: #00A767!important;
+}
+.subsubnav {
+	background-color: #E6E8EA!important;
+}
+/*____________________________________________*/
+/*top banner gallery section*/
+.banner-gallery {
+	background-color: #2D7DC3;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+/*______________________________________________*/
+/*general modifications*/
+.featured {
+	margin-top: 20px;
+}
+.map-legend {
+	margin-top: 10px;	
+}
+.thumbnail {
+	border-color: #0D5773!important;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.panel {
+	background-color: #F0F0F0;border-color: #0D5773!important;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#fb-root {
+	margin-top: 30px!important;
+}
+td {
+	padding: 5px!important;
+}
+blockquote {
+	border-left: none!important;
+	font-size: inherit!important;
+}
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+	display: inline-table;
+	float: none;
+	/* reset the text-align */
+	text-align: left;
+	/* inline-block space fix */
+	margin-right: -4px;
+}
+@media only screen and (max-width:767px)/*KB added to remove thumb image for small devices*/
+{
+	 .remove-device-img{ display:none; }
+}
+/*______________________________________________*/
+/*button modifications*/
+.btn-custom {
+	background-color: hsla(157,100%,33%,1.00) !important;
+	background-repeat: repeat-x;
+  	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00e585", endColorstr="#006b3e");
+	background-image: -khtml-gradient(linear, left top, left bottom, from(#00e585), to(#006b3e));
+	background-image: -moz-linear-gradient(270deg,rgba(0,203,125,1.00) 0%,rgba(0,122,70,0.86) 100%);
+	background-image: -ms-linear-gradient(top, #00e585, #006b3e);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00e585), color-stop(100%, #006b3e));
+	background-image: -webkit-linear-gradient(270deg,rgba(0,203,125,1.00) 0%,rgba(0,122,70,0.86) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(0,203,125,1.00) 0%,rgba(0,122,70,0.86) 100%);
+	background-image: linear-gradient(180deg,rgba(0,203,125,1.00) 0%,rgba(0,122,70,0.86) 100%);
+	border-color: #006b3e #006b3e hsl(155, 100%, 15%);
+	color: #fff !important;
+	text-shadow: 0 -1px 0 rgba(29,29,29,0.39);
+	-webkit-font-smoothing: antialiased;
+}
+/*______________________________________________________*/
+/*cards*/
+.card-gutters{
+margin-right: 20px;
+}
+
+.card a {
+}
+.card li {
+	line-height: 1.2!important;
+	padding-bottom: 7px!important;
+	/* [disabled]margin-left: -1em!important; */
+}
+.card a:hover {
+}
+.card a:visited {
+}
+.card a:focus {
+}
+.card {
+	background-color: #FFF;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 20px;
+}
+.card-title a{
+	color: #337AB7;
+	font-size: 1.6em!important;
+	font-weight: bold;
+	line-height: 1;
+}
+.featured-header h2 {
+color: #1C6987;
+
+}
+.featured-title {
+	background-color: #EFF4F8;
+	padding:10px;
+}
+.card-header {
+	background-color: #C3D4E3;
+	color: #255986;
+	letter-spacing: .5px;
+	font-size: 1.3em;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.card-block {
+	padding-left: 10px!important;
+	padding-right: 10px!important;
+	padding-top: 10px!important;
+	padding-bottom: 10px!important;
+}
+.card-text {
+	padding-top: 10px!important;
+    text-align: left;
+}
+.queue-card-block {
+	padding-left: 10px!important;
+	padding-right: 10px!important;
+	padding-top: 10px!important;
+	padding-bottom: 10px!important;
+	background-color: #EBEFF5!important;
+}
+.card-footer {
+	background-color: #D8E4EE;
+	padding-top: 5px!important;
+	padding-bottom: 5px!important;
+}
+.card-footer a {
+
+}
+.card-footer .btn .btn-light {
+
+}
+/*______________________________________________________*/
+/*tables*/
+#DMtable .table {
+
+}
+#DMtable .thead-dark {
+    background-color: #EBEFF5;
+}
+
+/*______________________________________________________*/
+/*tabs*/
+.nav-tabs > li > a{
+	background-color: #F1F1F1;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus  {
+	background-color: #E1E1E1;
+	border: 1px solid #ddd;
+	border-bottom-color: transparent;
+}
+/*______________________________________________________*/
+/*News & Updates and Stay Connected sections*/
+.media {
+}
+.media-heading {
+}
+
+/*_______________________________________________________*/
+/*footer*/
+.ft-text {
+	color: #A6BEC7;
+}
+.ft-header {
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #F1F3F4;
+}
+.ft-header2 {
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #1B6987;
+}
+.ft-subheader {
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #A6BEC7;
+}
+.ft-text a {
+	color: #CCE7F3;
+}
+.ft-text a:hover {
+	color: #CCE7F3;
+}
+@media (max-width:991px) {/*KB added border for small devices*/
+.ft-header {
+	border-top: 1px solid #E6E6E6;
+	padding-top: 5px;
+}
+}
+.partner-logos {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+/*_______________________________________________________*/
+/*UConn mandatory footer*/
+#uc-foot {
+	margin-top: 0px;
+	padding-top: 20px;
+}
+#uc-foot li  {/*keeps uconn links inline with padding*/
+    display: inline;
+	padding-right: 20px;
+	padding-left: 5px;
+}
+/*_______________________________________________________*/
+.nopadding {
+	padding-left: 0px!important;
+	padding-bottom: 0px!important;
+	padding-top: 0px!important;
+	padding-right: 0px!important;
+}
+.well-margin {
+	margin: 10px!important;
+}
+.imagepad {
+	padding-top: 20px!important;
+}
+/* Row with equal height columns---------------*/
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}

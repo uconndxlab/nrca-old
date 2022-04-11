@@ -1,0 +1,36 @@
+/*
+
+	uconn-centered: minor modifications to accomodate centered layouts.
+	
+	UConn Web Template v4
+	by UITS Web Development
+	webdev@uconn.edu
+	Feb 2010
+	
+*/
+body {
+	background-color:#333;
+	padding-top:5px;	
+}
+#head-wrap,
+#nav-wrap,
+#main-wrap,
+#foot-wrap {
+	border:2px solid #000;
+	width:950px;
+	margin:auto;
+}
+#head-wrap {
+	border-bottom:0;
+}
+#nav-wrap,
+#main-wrap {
+	border-top:0;
+	border-bottom:0;
+}
+#foot-wrap {
+	border-top:0;
+}
+#foot-links {
+	padding-left:10px;
+}

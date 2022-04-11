@@ -1,0 +1,26 @@
+/*
+	0.1
+
+	ie: special styles for everyone's favorite web browser.
+	
+	UConn Web Template v4
+	by UITS Web Development
+	webdev@uconn.edu
+	Feb 2010
+	
+*/
+
+/* since IE6 doesn't support tranparent png's we give it a text decoration instead. */
+#nav span.sf-sub-indicator {
+	_position:static;  
+	_display:inline;
+	_width:auto;
+	_height:auto;
+	_text-indent:-0; 
+	_background:none;
+}
+/* without a height or min-height, the drop down navigation gets slippery, and there are gaps in the hover areas, the submenus collapse to soon */
+#nav li li a {
+	min-height:10px;
+	_height:10px;	
+}

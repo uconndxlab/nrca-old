@@ -1,0 +1,30 @@
+/* ---------------------------------------------------------------- 
+	UConn Web Template - version 3
+	Default Gray Color Scheme - version 1.0
+	Change Log: http://webtools.uconn.edu/global/log.txt
+---------------------------------------------------------------- */
+
+body{ background-color:#cccccc; }
+
+/*	HEADER 
+---------------------------------------------------------------- */
+#header {background-color:#cccccc;}
+#head_uconn {background-image:url(http://web2.uconn.edu/webtools/global/images/logo_gray.gif); }
+
+/*	CONTENT 
+---------------------------------------------------------------- */
+#content {background-color:#FFFFFF;}
+#content.photostrip {background-color:#FFFFFF;}
+
+/*	NAVIGATION - TOP 
+---------------------------------------------------------------- */
+#nav_top {background-color:#000066;}
+#nav_top a {color:#FFFFFF; border-color:#000066;}
+#nav_top a:hover { color:#FFFFFF; background-color: #336699;}
+
+/*	FOOTER
+---------------------------------------------------------------- */
+div#footer {background-color:#cccccc; color:#333333;} 
+div#footer a:link, div#footer a:visited{ color: #333333; }
+div#footer a:hover{ color:#000066; }
+div#foot_left { color:#333333; }

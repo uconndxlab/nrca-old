@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GDAL 1.10.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <bounds minlat="41.804199171999997" minlon="-72.259950000000003" maxlat="41.820300975999999" maxlon="-72.240071771999993" />
+  </metadata>
+  <wpt lat="41.804199172" lon="-72.25314335">
+    <ele>220.50647</ele>
+    <time>2012-06-27T08:44:46Z</time>
+    <name>UConn1</name>
+    <cmt>UConn1 Co-op</cmt>
+    <src>garmin GPSMap60CSX</src>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>41.804199172</gpxx:lat>
+      <gpxx:lon>-72.25314335</gpxx:lon>
+      <gpxx:y_proj>41.804199172</gpxx:y_proj>
+      <gpxx:x_proj>-72.25314335</gpxx:x_proj>
+    </extensions>
+  </wpt>
+  <wpt lat="41.806539148" lon="-72.248480497">
+    <ele>193.109131</ele>
+    <time>2012-06-27T09:29:55Z</time>
+    <name>UConn3</name>
+    <cmt>UConn3 Mirror Lake</cmt>
+    <src>garmin GPSMap60CSX</src>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>41.806539148</gpxx:lat>
+      <gpxx:lon>-72.248480497</gpxx:lon>
+      <gpxx:y_proj>41.806539148</gpxx:y_proj>
+      <gpxx:x_proj>-72.248480497</gpxx:x_proj>
+    </extensions>
+  </wpt>
+  <wpt lat="41.805994827" lon="-72.254539607">
+    <ele>196.233398</ele>
+    <time>2012-06-27T11:50:40Z</time>
+    <name>UConn4</name>
+    <cmt>UConn4 Jonathan</cmt>
+    <src>garmin GPSMap60CSX</src>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>41.805994827</gpxx:lat>
+      <gpxx:lon>-72.254539607</gpxx:lon>
+      <gpxx:y_proj>41.805994827</gpxx:y_proj>
+      <gpxx:x_proj>-72.254539607</gpxx:x_proj>
+    </extensions>
+  </wpt>
+  <wpt lat="41.807992486" lon="-72.256876901">
+    <ele>194.551025</ele>
+    <time>2012-06-27T12:00:59Z</time>
+    <name>UConn5</name>
+    <cmt>UConn5 Admissions</cmt>
+    <src>garmin GPSMap60CSX</src>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>41.807992486</gpxx:lat>
+      <gpxx:lon>-72.256876901</gpxx:lon>
+      <gpxx:y_proj>41.807992486</gpxx:y_proj>
+      <gpxx:x_proj>-72.256876901</gpxx:x_proj>
+    </extensions>
+  </wpt>
+  <wpt lat="41.814110437" lon="-72.252218993">
+    <ele>198.156006</ele>
+    <time>2012-06-28T09:19:04Z</time>
+    <name>UConn6</name>
+    <cmt>UConn6 Yellow Barn</cmt>
+    <src>garmin GPSMap60CSX</src>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>41.814110437</gpxx:lat>
+      <gpxx:lon>-72.252218993</gpxx:lon>
+      <gpxx:y_proj>41.814110437</gpxx:y_proj>
+      <gpxx:x_proj>-72.252218993</gpxx:x_proj>
+    </extensions>
+  </wpt>
+  <wpt lat="41.80937" lon="-72.25995">
+    <ele>182.053955</ele>
+    <time>2012-06-28T09:52:04Z</time>
+    <name>UConn7</name>
+    <cmt>UConn7 Visitors</cmt>
+    <src>garmin GPSMap60CSX</src>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>41.80937</gpxx:lat>
+      <gpxx:lon>-72.25995</gpxx:lon>
+      <gpxx:y_proj>41.80937</gpxx:y_proj>
+      <gpxx:x_proj>-72.259813501</gpxx:x_proj>
+    </extensions>
+  </wpt>
+  <wpt lat="41.812793389" lon="-72.259328943">
+    <ele>197.19458</ele>
+    <time>2012-06-28T10:05:32Z</time>
+    <name>UConn8</name>
+    <cmt>UConn8 Jungle</cmt>
+    <src>garmin GPSMap60CSX</src>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>41.812793389</gpxx:lat>
+      <gpxx:lon>-72.259328943</gpxx:lon>
+      <gpxx:y_proj>41.812793389</gpxx:y_proj>
+      <gpxx:x_proj>-72.259328943</gpxx:x_proj>
+    </extensions>
+  </wpt>
+  <wpt lat="41.813447848" lon="-72.248080513">
+    <ele>188.062256</ele>
+    <time>2012-06-28T10:41:29Z</time>
+    <name>UConn9</name>
+    <cmt>UConn9 Dairy Bar</cmt>
+    <src>garmin GPSMap60CSX</src>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>41.813447848</gpxx:lat>
+      <gpxx:lon>-72.248080513</gpxx:lon>
+      <gpxx:y_proj>41.813447848</gpxx:y_proj>
+      <gpxx:x_proj>-72.248080513</gpxx:x_proj>
+    </extensions>
+  </wpt>
+  <wpt lat="41.81469826" lon="-72.245465778">
+    <ele>194.070435</ele>
+    <time>2012-06-28T13:06:42Z</time>
+    <name>UConn10</name>
+    <cmt>UConn10 Horsebarn Hill</cmt>
+    <src>garmin GPSMap60CSX</src>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>41.81469826</gpxx:lat>
+      <gpxx:lon>-72.245465778</gpxx:lon>
+      <gpxx:y_proj>41.81469826</gpxx:y_proj>
+      <gpxx:x_proj>-72.245465778</gpxx:x_proj>
+    </extensions>
+  </wpt>
+  <wpt lat="41.820300976" lon="-72.24007177199999">
+    <ele>150.811401</ele>
+    <time>2012-06-28T13:39:04Z</time>
+    <name>UConn11</name>
+    <cmt>UConn11 NRCA Platform</cmt>
+    <src>garmin GPSMap60CSX</src>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>41.820300976</gpxx:lat>
+      <gpxx:lon>-72.24007177199999</gpxx:lon>
+      <gpxx:y_proj>41.820300976</gpxx:y_proj>
+      <gpxx:x_proj>-72.24007177199999</gpxx:x_proj>
+    </extensions>
+  </wpt>
+  <wpt lat="41.8126" lon="-72.24555">
+    <name>UConn12</name>
+    <cmt>UConn12 Soil Pit</cmt>
+    <type>WAYPOINT</type>
+    <extensions>
+      <gpxx:lat>41.8126</gpxx:lat>
+      <gpxx:lon>-72.24555</gpxx:lon>
+      <gpxx:y_proj>41.8126</gpxx:y_proj>
+      <gpxx:x_proj>-72.24555</gpxx:x_proj>
+    </extensions>
+  </wpt>
+</gpx>

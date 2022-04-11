@@ -1,0 +1,189 @@
+@charset "UTF-8";
+/* CSS Document custom css for NRCA site site. Kara Bonsack August 2016 */
+/*______________________________________________*/
+/*wrappers*/
+/*______________________________________________*/	
+/* header styles*/
+h1, h2, h3, h4, h5, h6 {
+}
+h1 {
+	color: #09919E;
+}
+h2 {
+	color: #1B6987;
+}
+h3 {
+	color: #09919E;
+}
+h4 {
+	color: #09919E;
+}
+h5 {
+	color: #09919E;
+}
+h6 {
+	color: #09919E;
+}
+a {
+	color: #CA502C;
+}
+a:hover {
+	color: #00A1AE;
+}
+.glyphicon-home {
+	color: white;
+}
+hr {
+	border-color: #09919E!important;
+}
+/*______________________________________________*/	
+/* general*/
+#site-title a:link, #site-title a:visited { /*title text*/
+	color: #00A1AE!important;
+}
+.thumbnail {
+	border-color: #00A1AE!important;
+}
+.jumbotron {
+	/* [disabled]background-color: #E6E8EA; */
+	background-image: url(../../teachers/images/NRCA-banner-tpl.jpg);
+	background-size: cover;
+}
+/*______________________________________________*/
+/*button modifications*/
+.btn-custom {
+	background-color: hsla(184,100%,34%,1.00) !important;
+	background-repeat: repeat-x;
+  	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00e585", endColorstr="#006b3e");
+	background-image: -khtml-gradient(linear, left top, left bottom, from(#00e585), to(#006b3e));
+	background-image: -moz-linear-gradient(270deg,rgba(0,196,212,0.70) 0%,rgba(0,104,112,1.00) 100%);
+	background-image: -ms-linear-gradient(top, #00e585, #006b3e);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00e585), color-stop(100%, #006b3e));
+	background-image: -webkit-linear-gradient(270deg,rgba(0,196,212,0.70) 0%,rgba(0,104,112,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(0,196,212,0.70) 0%,rgba(0,104,112,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(0,196,212,0.70) 0%,rgba(0,104,112,1.00) 100%);
+	border-color: #006b3e #006b3e hsl(155, 100%, 15%);
+	color: #fff !important;
+	text-shadow: 0 -1px 0 rgba(29,29,29,0.39);
+	-webkit-font-smoothing: antialiased;
+}
+/*______________________________________________________*/
+/* navbar */
+.navbar {
+	/* [disabled]margin-bottom: 0px!important; */
+	background-color: #00A1AE!important;
+}
+.navbar a {/* text color control */
+	color: #FFFFFF!important;
+	font-weight: bold;
+}
+.navbar a:hover {
+	color: #EFD7A0 !important; /*text hover control*/
+}
+.dropdown:hover .dropdown-menu {/*keep for dropdowns to open on hover (but mobile issues?) http://stackoverflow.com/questions/16214326/bootstrap-dropdown-with-hover / dropdown menu background color control*/
+	background-color: #00A1AE!important;
+}
+.dropdown:focus .dropdown-menu {/*keep for dropdowns to open on hover (but mobile issues?) http://stackoverflow.com/questions/16214326/bootstrap-dropdown-with-hover / dropdown menu background color control*/
+	background-color: #00A1AE!important;
+}
+.dropdown-menu > li > a:focus {
+	background-color: #00A1AE!important;
+}
+.dropdown-menu > li > a:hover {
+	background-color: #00A1AE!important;
+}
+.dropdown-menu {
+	background-color: #00A1AE!important;
+}
+.navbar-right a{
+	/* [disabled]color: #1B6987!important; */ /* text control*/
+	font-style: normal;
+	font-weight: normal;
+}
+.navbar-right a:hover{
+	/* [disabled]color: #238540!important; */ /* text control*/
+}
+.divider {/* space between dropdown menu items */
+}
+/*______________________________________________________*/
+/* nav pills */	
+.nav.nav-pills { 
+	padding-top: 7px!important;
+	padding-bottom: 7px!important;
+	
+}
+.nav.nav-pills a{
+	color: #00A1AE!important;
+	background-color: #E4F7F7!important;
+	margin-right: 5px!important;
+	margin-bottom: 2px!important;
+	padding-left: 10px!important;
+	padding-right: 10px!important;
+	padding-top: 7px!important;
+	padding-bottom: 7px!important;
+}
+.nav.nav-pills a:hover{
+	background-color: #E09D78!important;
+	color: #FFF!important;
+}
+/*______________________________________________________*/
+/*cards*/
+.card a {
+}
+.card li {
+	line-height: 1.2!important;
+	padding-bottom: 7px!important;
+	margin-left: -1em!important;
+}
+.card a:hover {
+}
+.card a:visited {
+}
+.card a:focus {
+}
+.card {
+	background-color: #FFF!important;
+	border-color: #337AB7!important;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 20px!important;
+}
+.card-title {
+	padding-left: 10px!important;
+	padding-right: 10px!important;
+}
+.card-header {
+	font-weight: normal!important;
+	letter-spacing: 1.5px!important;
+	font-size: 1.5em!important;
+	padding-left: 10px!important;
+	padding-right: 10px!important;
+	padding-top: 3px!important;
+	padding-bottom: 3px!important;
+}
+.card-block {
+	padding-left: 10px!important;
+	padding-right: 10px!important;
+	padding-top: 10px!important;
+	padding-bottom: 10px!important;
+}
+.queue-card-block {
+	padding-left: 10px!important;
+	padding-right: 10px!important;
+	padding-top: 10px!important;
+	padding-bottom: 10px!important;
+	background-color: #EBEFF5!important;
+}
+/*_______________________________________________________*/
+/*footer*/
+.ft-text {
+	/* [disabled]color: #A6BEC7!important; */
+}
+.ft-header {
+	/* [disabled]color: #CCE7F3; */
+}
+.ft-text a {
+	/* [disabled]color: #CCE7F3!important; */
+}
+.ft-text a:hover {
+	/* [disabled]color: #CCE7F3!important; */
+}

@@ -1,0 +1,54 @@
+/*
+
+	hf-blueG: the colors for the header and footer.
+	
+	UConn Web Template v4
+	by UITS Web Development
+	webdev@uconn.edu
+	Mar 2010
+	
+*/
+body {
+	background-color:#040952;
+}
+#uc-head-wrap {
+	background-color:#00165f;
+	background-image: url(images/hd-blue.png);
+	background-repeat: repeat-x;
+}
+#uc-head h1 a, #uc-head {
+	color:white;
+}
+#uc-search ul {
+	position:relative;
+	left:-.3em;
+}
+#uc-foot-wrap {
+	background-color:#040952;
+	border-top:5px solid #b1b1b1;
+	background-image: url(images/ft-blue.png);
+	background-position:0 1px;
+	background-repeat: repeat-x;
+}
+#uc-foot, #uc-foot a {
+	color:#ccc;
+}
+#uc-foot a:hover {
+	color:#99ccff;
+}
+/* alert-banner touchup */
+#alert_wrapper {
+	background-color:#003093;
+}
+
+/* -------- Placeholder test for UC Patch 4.1 */
+
+html body {
+		background-color:#0f1938;
+		}
+	#uc-head-wrap {
+		background-color:#0f1938;
+		}
+	#uc-foot-wrap {
+		background-color:#0f1938;
+		}

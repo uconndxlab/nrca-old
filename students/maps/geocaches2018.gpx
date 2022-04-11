@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GDAL 1.10.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <bounds minlat="41.804199169999997" minlon="-72.259950000000003" maxlat="41.820300979999999" maxlon="-72.240071770000000" />
+  </metadata>
+  <wpt lat="41.80419917" lon="-72.25314335">
+    <ele>220.51</ele>
+    <time>2012-06-27T12:44:46Z</time>
+    <magvar>0.0</magvar>
+    <name>UConn1</name>
+    <src>garmin GPSMap60CSX</src>
+    <type>WAYPOINT</type>
+    <sat>0</sat>
+    <hdop>0.0</hdop>
+    <vdop>0.0</vdop>
+    <pdop>0.0</pdop>
+    <dgpsid>0</dgpsid>
+    <extensions>
+      <gpxx:lat>41.80419917</gpxx:lat>
+      <gpxx:lon>-72.25314335</gpxx:lon>
+      <gpxx:y_proj>854141.07922986243</gpxx:y_proj>
+      <gpxx:x_proj>1135467.2899000675</gpxx:x_proj>
+      <gpxx:Depth>0.0</gpxx:Depth>
+      <gpxx:Temperature>0.0</gpxx:Temperature>
+    </extensions>
+  </wpt>
+  <wpt lat="41.80653915" lon="-72.2484805">
+    <ele>193.11</ele>
+    <time>2012-06-27T13:29:55Z</time>
+    <magvar>0.0</magvar>
+    <name>UConn3</name>
+    <src>garmin GPSMap60CSX</src>
+    <type>WAYPOINT</type>
+    <sat>0</sat>
+    <hdop>0.0</hdop>
+    <vdop>0.0</vdop>
+    <pdop>0.0</pdop>
+    <dgpsid>0</dgpsid>
+    <extensions>
+      <gpxx:lat>41.80653915</gpxx:lat>
+      <gpxx:lon>-72.2484805</gpxx:lon>
+      <gpxx:y_proj>855001.09262582147</gpxx:y_proj>
+      <gpxx:x_proj>1136733.6449631152</gpxx:x_proj>
+      <gpxx:Depth>0.0</gpxx:Depth>
+      <gpxx:Temperature>0.0</gpxx:Temperature>
+    </extensions>
+  </wpt>
+  <wpt lat="41.80599483" lon="-72.25453961">
+    <ele>196.23</ele>
+    <time>2012-06-27T15:50:40Z</time>
+    <magvar>0.0</magvar>
+    <name>UConn4</name>
+    <src>garmin GPSMap60CSX</src>
+    <type>WAYPOINT</type>
+    <sat>0</sat>
+    <hdop>0.0</hdop>
+    <vdop>0.0</vdop>
+    <pdop>0.0</pdop>
+    <dgpsid>0</dgpsid>
+    <extensions>
+      <gpxx:lat>41.80599483</gpxx:lat>
+      <gpxx:lon>-72.25453961</gpxx:lon>
+      <gpxx:y_proj>854793.21643000201</gpxx:y_proj>
+      <gpxx:x_proj>1135082.8554944862</gpxx:x_proj>
+      <gpxx:Depth>0.0</gpxx:Depth>
+      <gpxx:Temperature>0.0</gpxx:Temperature>
+    </extensions>
+  </wpt>
+  <wpt lat="41.80799249" lon="-72.2568769">
+    <ele>194.55</ele>
+    <time>2012-06-27T16:00:59Z</time>
+    <magvar>0.0</magvar>
+    <name>UConn5</name>
+    <src>garmin GPSMap60CSX</src>
+    <type>WAYPOINT</type>
+    <sat>0</sat>
+    <hdop>0.0</hdop>
+    <vdop>0.0</vdop>
+    <pdop>0.0</pdop>
+    <dgpsid>0</dgpsid>
+    <extensions>
+      <gpxx:lat>41.80799249</gpxx:lat>
+      <gpxx:lon>-72.2568769</gpxx:lon>
+      <gpxx:y_proj>855517.50350375194</gpxx:y_proj>
+      <gpxx:x_proj>1134441.4671913302</gpxx:x_proj>
+      <gpxx:Depth>0.0</gpxx:Depth>
+      <gpxx:Temperature>0.0</gpxx:Temperature>
+    </extensions>
+  </wpt>
+  <wpt lat="41.81411044" lon="-72.25221899">
+    <ele>198.16</ele>
+    <time>2012-06-28T13:19:04Z</time>
+    <magvar>0.0</magvar>
+    <name>UConn6</name>
+    <src>garmin GPSMap60CSX</src>
+    <type>WAYPOINT</type>
+    <sat>0</sat>
+    <hdop>0.0</hdop>
+    <vdop>0.0</vdop>
+    <pdop>0.0</pdop>
+    <dgpsid>0</dgpsid>
+    <extensions>
+      <gpxx:lat>41.81411044</gpxx:lat>
+      <gpxx:lon>-72.25221899</gpxx:lon>
+      <gpxx:y_proj>857754.12250552012</gpxx:y_proj>
+      <gpxx:x_proj>1135698.5062342628</gpxx:x_proj>
+      <gpxx:Depth>0.0</gpxx:Depth>
+      <gpxx:Temperature>0.0</gpxx:Temperature>
+    </extensions>
+  </wpt>
+  <wpt lat="41.809269637" lon="-72.259813501">
+    <ele>182.05</ele>
+    <time>2012-06-28T13:52:04Z</time>
+    <magvar>0.0</magvar>
+    <name>UConn7</name>
+    <src>garmin GPSMap60CSX</src>
+    <type>WAYPOINT</type>
+    <sat>0</sat>
+    <hdop>0.0</hdop>
+    <vdop>0.0</vdop>
+    <pdop>0.0</pdop>
+    <dgpsid>0</dgpsid>
+    <extensions>
+      <gpxx:lat>41.80937</gpxx:lat>
+      <gpxx:lon>-72.25995</gpxx:lon>
+      <gpxx:y_proj>855978.34795405797</gpxx:y_proj>
+      <gpxx:x_proj>1133638.2241698599</gpxx:x_proj>
+      <gpxx:Depth>0.0</gpxx:Depth>
+      <gpxx:Temperature>0.0</gpxx:Temperature>
+    </extensions>
+  </wpt>
+  <wpt lat="41.81279339" lon="-72.25932894">
+    <ele>197.19</ele>
+    <time>2012-06-28T14:05:32Z</time>
+    <magvar>0.0</magvar>
+    <name>UConn8</name>
+    <src>garmin GPSMap60CSX</src>
+    <type>WAYPOINT</type>
+    <sat>0</sat>
+    <hdop>0.0</hdop>
+    <vdop>0.0</vdop>
+    <pdop>0.0</pdop>
+    <dgpsid>0</dgpsid>
+    <extensions>
+      <gpxx:lat>41.81279339</gpxx:lat>
+      <gpxx:lon>-72.25932894</gpxx:lon>
+      <gpxx:y_proj>857263.11353754147</gpxx:y_proj>
+      <gpxx:x_proj>1133763.0351346363</gpxx:x_proj>
+      <gpxx:Depth>0.0</gpxx:Depth>
+      <gpxx:Temperature>0.0</gpxx:Temperature>
+    </extensions>
+  </wpt>
+  <wpt lat="41.81344785" lon="-72.24808051">
+    <ele>188.06</ele>
+    <time>2012-06-28T14:41:29Z</time>
+    <magvar>0.0</magvar>
+    <name>UConn9</name>
+    <src>garmin GPSMap60CSX</src>
+    <type>WAYPOINT</type>
+    <sat>0</sat>
+    <hdop>0.0</hdop>
+    <vdop>0.0</vdop>
+    <pdop>0.0</pdop>
+    <dgpsid>0</dgpsid>
+    <extensions>
+      <gpxx:lat>41.81344785</gpxx:lat>
+      <gpxx:lon>-72.24808051</gpxx:lon>
+      <gpxx:y_proj>857519.20562915434</gpxx:y_proj>
+      <gpxx:x_proj>1136828.0718025081</gpxx:x_proj>
+      <gpxx:Depth>0.0</gpxx:Depth>
+      <gpxx:Temperature>0.0</gpxx:Temperature>
+    </extensions>
+  </wpt>
+  <wpt lat="41.81469826" lon="-72.24546578">
+    <ele>194.07</ele>
+    <time>2012-06-28T17:06:42Z</time>
+    <magvar>0.0</magvar>
+    <name>UConn10</name>
+    <src>garmin GPSMap60CSX</src>
+    <type>WAYPOINT</type>
+    <sat>0</sat>
+    <hdop>0.0</hdop>
+    <vdop>0.0</vdop>
+    <pdop>0.0</pdop>
+    <dgpsid>0</dgpsid>
+    <extensions>
+      <gpxx:lat>41.81469826</gpxx:lat>
+      <gpxx:lon>-72.24546578</gpxx:lon>
+      <gpxx:y_proj>857978.99809545255</gpxx:y_proj>
+      <gpxx:x_proj>1137538.2038370837</gpxx:x_proj>
+      <gpxx:Depth>0.0</gpxx:Depth>
+      <gpxx:Temperature>0.0</gpxx:Temperature>
+    </extensions>
+  </wpt>
+  <wpt lat="41.82030098" lon="-72.24007177">
+    <ele>150.81</ele>
+    <time>2012-06-28T17:39:04Z</time>
+    <magvar>0.0</magvar>
+    <name>UConn11</name>
+    <src>garmin GPSMap60CSX</src>
+    <type>WAYPOINT</type>
+    <sat>0</sat>
+    <hdop>0.0</hdop>
+    <vdop>0.0</vdop>
+    <pdop>0.0</pdop>
+    <dgpsid>0</dgpsid>
+    <extensions>
+      <gpxx:lat>41.82030098</gpxx:lat>
+      <gpxx:lon>-72.24007177</gpxx:lon>
+      <gpxx:y_proj>860029.22108216595</gpxx:y_proj>
+      <gpxx:x_proj>1138996.5654816567</gpxx:x_proj>
+      <gpxx:Depth>0.0</gpxx:Depth>
+      <gpxx:Temperature>0.0</gpxx:Temperature>
+    </extensions>
+  </wpt>
+  <wpt lat="41.8126" lon="-72.24555">
+    <ele>0.0</ele>
+    <magvar>0.0</magvar>
+    <name>UConn12</name>
+    <type>WAYPOINT</type>
+    <sat>0</sat>
+    <hdop>0.0</hdop>
+    <vdop>0.0</vdop>
+    <pdop>0.0</pdop>
+    <dgpsid>0</dgpsid>
+    <extensions>
+      <gpxx:lat>41.8126</gpxx:lat>
+      <gpxx:lon>-72.24555</gpxx:lon>
+      <gpxx:y_proj>857214.27283613617</gpxx:y_proj>
+      <gpxx:x_proj>1137519.708404585</gpxx:x_proj>
+      <gpxx:Depth>0.0</gpxx:Depth>
+      <gpxx:Temperature>0.0</gpxx:Temperature>
+    </extensions>
+  </wpt>
+</gpx>

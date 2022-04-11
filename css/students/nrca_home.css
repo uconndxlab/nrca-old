@@ -1,0 +1,135 @@
+@charset "UTF-8";
+#column1 {
+	float: left;
+	height: auto;
+	border-right-width: thin;
+	border-right-style: dotted;
+	border-right-color: #999;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding-right: 7px;
+	width: 350px;
+}
+#aboutBox {
+	background-color: #EDEDED;
+	margin-bottom: 10px;
+	padding: 7px;
+}
+#mainInfo {
+	[disabled]background-color: #EDEDED;
+	padding: 7px;
+	margin-bottom: 10px;
+	background-color: #EDEDED;
+}
+#newslinks {
+	background-color: #EDEDED;
+	padding: 7px;
+}
+#column2 {
+	height: 650px;
+	width: 360px;
+	float: left;
+	overflow: auto;
+	margin-left: 0px;
+	margin-bottom: 10px;
+	padding-left: 12px;
+	/* [disabled]background-color: #EDEDED; */
+}
+
+/*	Home Content CSS
+---------------------------------------------------------------- */
+.list {
+	font-family: Verdana, Geneva, sans-serif;
+	color: #666;
+	font-size: 11px;
+	list-style-type: disc;
+	list-style-position: outside;
+	line-height: normal;
+	margin-left: 0px;
+	padding-top: 2px;
+	padding-bottom: 20px;
+}
+.subHeaders {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #D1282C;
+	line-height: normal;
+	padding-top: 5px;
+	padding-left: 5px;
+	margin-top: 20px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #34B5D0;
+	margin-right: 10px;
+}
+.HEADERS {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFF;
+	padding-left: 7px;
+	height: 27px;
+	line-height: 25px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background-color: #00A767;
+	-moz-border-radius: 5px;
+	border-top-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+.HEADERS2 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #00A767;
+	background-repeat: repeat;
+	height: 27px;
+	line-height: 25px;
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-bottom: 20px;
+	margin-left: 0px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #999;
+}
+.homeContent {
+	margin-top: 15px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	/* [disabled]margin-left: 5px; */
+	color: #464646;
+}
+
+/*	Home Content Buttons CSS
+---------------------------------------------------------------- */
+.b-mediumOrange {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	background-image: url(../../students/oldsite/images/buttons/b-mediumOrange.gif);
+	text-align: center;
+	background-repeat: no-repeat;
+	height: 22px;
+	line-height: 19px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	margin-left: 15px;
+}
+.b-mediumGray {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	background-image: url(../../students/oldsite/images/buttons/b-mediumGray.gif);
+	text-align: center;
+	background-repeat: no-repeat;
+	height: 22px;
+	width: 97px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	margin-left: 80px;
+}
+.headerBuffer {
+	padding-top: 7px;
+	padding-bottom: 10px;
+}

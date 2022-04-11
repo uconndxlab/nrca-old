@@ -1,0 +1,197 @@
+@charset "UTF-8";
+
+body {
+	text-align: center;/* kb centers page in browser window. */
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	background-image: url(../../students/oldsite/images/template/background.gif); /* kb the background surrounding the container div that contains all page content. */
+	background-repeat: repeat;
+}
+#container {
+	width: 950px;
+	text-align: left;
+	margin-right: auto;/* the auto margins (in conjunction with a width) center the page */
+	margin-bottom: 0px;
+	margin-left: auto;/* the auto margins (in conjunction with a width) center the page */
+	/* [disabled]border: 2px solid #FFF; */
+	background-color: #FFF;
+}
+#uconn_top_mast {
+	height: 74px;
+	background-color: #FFF;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #1C6987;
+}
+#uconn_image {
+	padding-left: 15px;
+	z-index: 0;
+	height: 60px;
+	width: 698px;
+	float: left;
+	padding-top: 5px;
+}
+#photoCollage {
+	border-top-width: medium;
+	border-bottom-width: medium;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #1A6887;
+	border-bottom-color: #1A6887;
+}
+#navBars {
+	height: 69px;
+	padding: 0px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#logo_box {
+	height: 69px;
+	width: 276px;
+	float: left;
+}
+#top_nav {
+	height: 30px;
+	background-color: #FFF;
+	float: left;
+	width: 674px;
+}
+.top_nav {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	text-align: right;
+	color: #008C4D;
+	padding-top: 5px;
+	padding-right: 35px;
+}
+.top_nav a:link  {
+	color: #008C4D;
+}
+.top_nav a:visited {
+	color: #008C4D;
+}
+.top_nav a:hover {
+	color: #CF4E30;
+}
+.top_nav a:active {
+	color: #4A9044;
+}
+#mainNav {
+	z-index: 2000;
+	height: 31px;
+	background-color: #1C6987;
+	padding: 0px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 674px;
+}
+#mainContent {
+	height: auto;
+	overflow: auto;
+	background-color: #FFF;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-top: 0px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#leftnav {
+	width: 170px;
+	float:left;
+	margin-top: 0px;
+	overflow: auto;
+	padding-top: 20px;
+}
+#leftNavVertical {
+	margin-left: 10px;
+}
+#divbody {
+	background-color: #FFF;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	margin-left: 185px;
+	z-index: 2000;
+}
+#footer {
+	background-color: #9FDDCE;
+	margin: 0px;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #1A6887;
+	height: 160px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #1A6887;
+} 	
+#footer_icons {
+	text-align: left;
+	height: 75px;
+	padding-top: 10px;
+	background-color: #DEDEDE;
+	padding-left: 50px;
+	border-bottom-width: thin;
+	border-bottom-style: dotted;
+	border-bottom-color: #FFF;
+}
+#footer_links {
+	width: 280px;
+	border-right-width: thin;
+	border-right-style: dotted;
+	border-right-color: #FFF;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-left: 20px;
+	float: left;
+	margin-top: 0px;
+	height: 145px;
+}
+#footer_linkscol1 {
+	float: left;
+	width: 185px;
+}
+#footer_linkscol2 {
+	float: left;
+	margin-top: 45px;
+	/* [disabled]margin-left: 15px; */
+}
+#footer_contact {
+	width: 250px;
+	border-right-width: thin;
+	border-right-style: dotted;
+	border-right-color: #FFF;
+	padding-top: 0px;
+	padding-right: 5px;
+	float: left;
+	height: 155px;
+	margin-left: 20px;
+	margin-top: 0px;
+}
+#footer_extras {
+	width: 330px;
+	padding-top: 0px;
+	float: right;
+	height: 146px;
+	margin-top: 7px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#footer_copyright {
+	margin: 0px;
+	padding: 5px;
+	background-color: #FFF;
+}
+.buttonDiv {
+	height: 40px;
+}

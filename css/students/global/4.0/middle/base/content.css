@@ -1,0 +1,189 @@
+/* 
+
+	content.css 
+	Requires: reset.css
+
+	load this file after using reset.css to bring in some nice, basic typography for your content area. 
+	
+	UConn Web Template v.4
+	by UITS Web Development
+	webdev@uconn.edu
+	Feb. 2010
+	
+*/
+
+
+
+/* blocks
+------------------------------ */
+#content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
+	font-weight:bold;
+	margin:1.5em 0 .7em 0;
+	line-height:1em;
+}
+#content h1 {
+	font-size:1.7em;
+}
+#content h2 {
+	font-size:1.5em;
+}
+#content h3 {
+	font-size:1.3em;
+}
+#content h4 {
+	font-size: 1.2em;
+	line-height: 20px;
+}
+#content h5 {
+	font-size:1.1em;
+}
+#content h6 {
+	font-size:1em;
+}
+#content p {
+	margin:1.2em 0;
+}
+#content blockquote {
+	margin:1.2em 0 1.2em .3em;
+	padding-left:1.5em;
+	/* [disabled]border-left:2px solid #ccc; */
+}
+#content pre, #content code {
+	font-family: "Courier New", Courier, monospace;
+	margin:1.2em 0;
+	font-size:1.1em;
+}
+#content address {
+	font-style:italic;
+	margin:1.2em 0;
+}
+
+
+/* inlines 
+------------------------------ */
+
+#content a {
+	text-decoration:underline;
+}
+#content h1 a,
+#content h2 a,
+#content h3 a,
+#content h4 a,
+#content h5 a,
+#content h6 a,
+#content strong a {
+	font-weight:bold;
+}
+#content strong {
+	font-weight:bold;
+}
+#content em {
+	font-style:italic;
+}
+#content sub {
+	font-size:.7em;
+	position:relative;
+	top:.4em;
+}
+#content sup {
+	font-size:.7em;
+	position:relative;
+	bottom:.4em;
+}
+#content del {
+	text-decoration:line-through;
+}
+#content abbr, #content acronym {
+	border-bottom:1px dotted #666;
+}
+#content dfn {
+	font-weight:bold;
+	font-style:italic;
+}
+#content ins{
+	font-style:italic;
+}
+#content a acronym {
+	border:0;
+}
+
+
+
+/* lists
+------------------------------ */
+#content ol, #content ul {
+	margin:1.2em 0 1.2em 2.5em;
+}
+#content ol ol, #content ol ul, #content ul ul, #content ul ol {
+	/* [disabled]margin:.5em 0 .5em 2.5em; */
+}
+#content li {
+	margin:.5em 0;
+}
+#content ol {
+	list-style-type:decimal;
+}
+#content ul {
+	list-style-type:disc;
+}
+#content ul ul {
+	list-style-type:circle;
+}
+#content dl {
+	margin:1.5em 0;
+}
+#content dt {
+	font-weight:bold;
+	margin:.5em 0;
+}
+#content dd {
+	margin:.5em 0 1.5em 2em;
+}
+
+/* tables 
+------------------------------ */
+#content table {
+	margin:1.2em 0;
+}
+#content table, #content th, #content td {
+	/* [disabled]border:1px solid #ccc; */
+}
+#content caption {
+	margin-bottom:.5em;
+	font-size:1.1em;
+	font-weight:bold;
+	text-align:left;
+}
+#content th, #content td {
+	padding:.5em .5em .3em .5em;
+}
+#content th {
+	background-color:#efefef;
+}
+#content td {
+	background-color:white;
+	vertical-align: top;
+}
+
+
+/* forms 
+------------------------------ */
+
+#content fieldset {
+	border:1px solid #ccc;
+	padding:0 1em;
+	margin:1.2em 0;
+}
+#content legend {
+	padding:.5em;
+	margin:0 .5em;
+}
+
+
+/* misc
+------------------------------ */
+#content hr {
+  background: #ddd; 
+  height: .1em;
+  margin: 0 0 1.2em;
+}

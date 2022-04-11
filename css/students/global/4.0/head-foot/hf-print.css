@@ -1,0 +1,54 @@
+/*
+
+	hf-print: print styles for the header and footer
+	
+	UConn Web Template v4
+	by UITS Web Development
+	webdev@uconn.edu
+	MAR 2010
+	
+*/
+/* HEAD
+-------------------------------------------------- */
+#uc-skip {
+	display:none;
+}
+a, a:link, a:visited {color:black;}
+#uc-head h1, #uc-head a, #uc-head img, #uc-head strong, #uc-head em, #uc-head form, #uc-head legend, #uc-head fieldset, #uc-head ul, #uc-head li, #uc-head label, #uc-foot ul, #uc-foot li, #uc-foot a {margin:0; padding:0; border:0; outline:0; font-weight:normal; font-size:100%; font-family:inherit; vertical-align:baseline; background-image:none; font-style:normal; text-decoration:none; text-decoration:none; list-style-type:none; color:black; }
+#uc-head{font-size:10px;}
+#uc-foot {font-size:11px;}
+#uc-head {
+	padding-top:2em;
+}
+#uc-uconn {
+	float:left;
+	position:relative;
+}
+#uc-head h1 #uc-secondary-title a,
+#uc-head h1 #uc-website-title a {
+	font-family:"Adobe Garamond Pro", "Garmamond MT", Garamond, "Times New Roman", serif;
+	padding-left:250px;
+	display:block;
+	position:relative;
+	top:28px;
+}
+#uc-head h1 #uc-secondary-title a {
+	font-size:1.8em;
+}
+#uc-head h1 #uc-website-title a {
+	font-size:3.1em;
+}
+
+/* use the search div to clear the floats */
+#uc-search {
+	clear:both;
+}
+/* hide the content of the search div */
+#uc-search form, 
+#uc-search a {
+	display:none;
+}
+#uc-foot {border-top:2px solid #ccc; padding-top:.5em;}
+#uc-foot ul {margin:0;}
+#uc-foot li {display:none;}
+#uc-foot li#uc-copyright {display:block; list-style-type:none;}

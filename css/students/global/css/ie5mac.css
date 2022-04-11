@@ -1,0 +1,48 @@
+/* ---------------------------------------------------------------- 
+	UConn Web Template - version 3
+	IE 5(Mac) Hacks - version 1.0
+	Change Log: http://webtools.uconn.edu/global/log.txt
+---------------------------------------------------------------- */
+
+#nav_top ul {width:75%;}
+#nav_top li {width:1%;}
+#nav_top li a {white-space:nowrap;}
+#nav_top li a:hover {background-color:#CCCCCC; border-color:#CCCCCC; color:#000000; font-weight:bold; text-decoration:underline;}
+#jumpmenu {width:200px;}
+#googleweb, #googleuconn, #People {background-color:black;}
+/* Footer fixes */
+body {
+  min-width:inherit;
+}
+#footer {
+  padding-left: 0px;   
+  padding-right: 0px;  
+}
+#footer .column {
+  position:relative;
+  float: none;
+}
+#foot_center {
+  width:auto;
+  text-align:center;
+  padding:25px 0;
+}
+#foot_left {
+  padding:15px 0 10px 10px;	
+  width:auto;          
+  right: 0px;         
+  margin-left: 0;
+}
+#foot_right {
+  padding:15px 10px 10px 0;	
+  width:auto;          
+  margin-right:0;  
+  text-align:right;
+}
+* html #foot_left {
+  left: 0px;          
+}
+#footer{color:#cccccc; font-size:.7em; border-top:2px solid #ffffff; clear:both; background-color:#000066; min-height:78px;} 
+#footer a {color: #cccccc; text-decoration:none;}
+#footer a:hover{ color:#FFFFFF; text-decoration:underline; }
+#foot_center a {margin: 0px 15px 0px 15px;}

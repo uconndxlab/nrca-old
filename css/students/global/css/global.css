@@ -1,0 +1,162 @@
+/* ---------------------------------------------------------------- 
+	UConn Web Template - version 3
+	Global Styles - version 1.31
+	Change Log: http://webtools.uconn.edu/global/log.txt
+---------------------------------------------------------------- */
+
+body{ margin:0; padding:0; background-color:#000066; }
+body{ font-family:Arial, Helvetica, sans-serif; } /* Default font and size */
+form, table, input, img { padding:0px; margin:0px; } /* IE adds unnecessary padding */
+#skip_content {position:absolute; top:-2000px; left:-2000px;} /* Accessibility */
+#center_wrapper {width:100%; float:left;} /* needed for ffox */
+
+/*	HEADER 
+---------------------------------------------------------------- */
+#header {float:left; width:100%; background-color:#000066; background-repeat: no-repeat; background-position: 250px 0;} 
+#head_uconn {background:url(http://web2.uconn.edu/webtools/global/images/logo_blue.gif) no-repeat; float:left;}
+#head_site {background-color:transparent;} /* ie5.5 */
+#head_uconn a, #head_site a, #top_line a {text-decoration:none; height:78px; display:block; text-indent:-5000px; }
+#head_uconn a {width:250px;}
+#head_site a#top_line {height:0;}
+
+/*	NAVIGATION - TOP 
+---------------------------------------------------------------- */
+#nav_top {background-color:#CCCCCC; border:2px solid #ffffff; border-left:0; border-right:0; float:left; width:100%;}
+#nav_top ul, #nav_top li {margin:0; padding:0; list-style-type:none; float:left;}
+#nav_top a {font-size:.65em; display:block; text-transform:uppercase; letter-spacing:1px; text-decoration:none; padding:7px 10px; color:#000066; border:2px solid #cccccc; border-top:0; border-bottom:0;}
+#nav_top a:hover {background-color:#eeeeee; color:#999999; border-color:#FFFFFF;}
+/* jump menu */
+	#jumpmenu { float:right; margin-right:2px; }
+	#jumpmenu select, #jumpmenu input{font-size:.65em; }
+	/* go button */
+	#jumpmenu input {font-weight:bold; background-color:#606E7F; color:#ffffff; padding:1px; border:1px solid #9DA8BA; border-bottom-color:#393E47; border-left-color:#393E47; }
+
+/*	NAVIGATION - LEFT
+---------------------------------------------------------------- */
+#nav_left {width:175px; background-color:#606E7F; border-right:2px solid white; font-size:.8em;}
+#nav_left ul, #nav_left li {margin: 0; padding: 0; list-style-type: none; }
+#nav_left a { display: block; padding: 5px 10px; color: #fff;  text-decoration: none; border:2px solid #606E7F; border-left:0; border-right:0; }
+#nav_left a:hover { color: #606E7F; background-color: #C3CDD5; text-decoration: none; border-color:#FFFFFF;  }
+#nav_left li li { padding: 0 0 0 30px; background:url(http://web2.uconn.edu/webtools/global/images/nav_circle.gif) no-repeat 20px 8px; }
+#nav_left li li a {color: #C3CDD5;  border:0;}
+#nav_left li li a:hover { color:#FFFFFF; text-decoration:underline; background-color:transparent;}
+#nav_left > ul > li:first-child a:hover { border-top-color:#C3CDD5; } /* Fixes double border on hover state.  IE6- doesn't understand this. */
+
+/*	CONTENT
+---------------------------------------------------------------- */
+#content {background-color:#eeeeee; padding:25px; font-size:.78em;}
+/* Typography */
+	#content p { margin:0px; padding:5px 0px 5px 0px; }
+	#content h1 { font-family:"Times New Roman", Times, serif; font-size: 2em; color: #000066; margin-bottom: 8px; margin-top: 0px; }
+	#content h2 { font-size: 1.2em; font-weight: bold; color:#666666; margin-bottom: 5px; margin-top: 0px; } 
+	#content h3 { font-size: 1.2em; font-weight: bold; color: #748699; margin-bottom: 8px; margin-top: 0px; }
+	#content h4 { font-size: 1em; font-weight: bold; color: #FFFFFF;  background-color:#999999; padding: 3px 0px 3px 5px; margin:0 inherit; }
+	#content h5 { font-size: 1em; font-weight: bold; color: #FFFFFF; background-color:#606E7F; padding: 4px 0px 4px 5px;  margin:0 inherit; }
+	#content h6 { font-size: 1em; font-weight: bold; color: #000066; background-color:#C3CDD5; padding: 3px 0px 3px 5px; margin:0 inherit; border: 1px solid #606E7F; }
+/* Links */
+	#content a:link, #content a:visited{ color:#235698; font-weight:bold; }
+	#content a:hover{ color:#669900; }
+/* border for images/pull outs */
+	#content div.box_right {border:1px solid #999999; padding:10px; margin:10px; float:right; background-color:#FFFFFF; clear:both;}
+	#content a.std_button {border:1px solid #2259ab; color:#ffffff; display:block; background:#4b7dc6 url(../../../../students/oldsite/images/template/uconn_images/button.gif) repeat-x; padding:.55em .8em .45em .8em; text-decoration:none;}
+	#content a.std_button:visited {color:#ffffff;} 
+	#content a.std_button:hover {background-image:url(../../../../students/oldsite/images/template/uconn_images/button2.gif); color:white;}
+	
+
+/*	PHOTOSTRIP
+---------------------------------------------------------------- */
+#content.photostrip {padding-top:225px; background-repeat:repeat-x;}
+
+/*	TABLES
+---------------------------------------------------------------- */
+/* default */
+	#content table, #content th, #content td {font-family:inherit; font-size: inherit; color:#606E7F;}
+	#content table tbody a:link, #content table tbody a:visited { color:#606E7F; text-decoration:none; }
+	#content table tbody a:hover { color:#669900; text-decoration:underline; }
+/* whiteBox*/
+	table.table_whiteBox { background-color:#FFFFFF; border:1px solid #606E7F; }
+	table.table_whiteBox th { background-color:#606E7F; color:#FFFFFF; text-align:left; font-weight:bold; padding:5px; }
+	table.table_whiteBox li { list-style-image:url(http://web2.uconn.edu/webtools/global/images/arrow.gif); margin-bottom:10px; }
+	table.table_whiteBox td { padding:5px; text-align:left }
+/* whiteBox2 */
+	table.table_whiteBox2 { background-color:#FFFFFF; border:1px solid #606E7F; }
+	table.table_whiteBox2 td { text-align: left; }
+	table.table_whiteBox2 thead td { background-color:#606E7F; color:#FFFFFF; font-weight:bold; padding:5px; padding-right:20px; }
+	table.table_whiteBox2 tfoot td { background-color:#869AB3; color:#FFFFFF; font-weight:bold; padding:5px; padding-left:20px; padding-right:20px; }
+	table.table_whiteBox2 tbody td { line-height: 2.2em;  padding-left:20px; padding-right:20px;}
+	table.table_whiteBox2 tbody tr.highlighted { background-color:#E7EBEE; }
+/* topBorder */
+	table.table_topBorder td {border-top:1px solid #cccccc; padding:4px; color:#333333;}
+	table.table_topBorder {border-collapse: collapse;}
+	table.table_topBorder th {padding:4px; color:#000000; font-weight:bold; text-align:left;}
+/* fullBorder */
+	table.table_fullBorder { border-bottom:1px solid #cccccc; border-collapse: collapse;}
+	table.table_fullBorder td {	border:1px solid #cccccc; border-bottom:0px; padding:4px; color:#333333;}
+	table.table_fullBorder td+td {border-left:0px;}
+	table.table_fullBorder th { text-align: left; font-weight:bold;	color:#000000;}
+/* noBorder */
+	table.table_noBorder {border-collapse: collapse;}	
+	table.table_noBorder td{padding:4px;color:#333333;}
+	
+/*	LINK BOXES
+---------------------------------------------------------------- */
+.css_linkBox, .table_linkBox {background-color:#FFFFFF; border:1px solid #003399; float:right; clear:both; margin:0 0 15px 15px;}
+#content div.css_linkBox h4, #content table.table_linkBox th  {background-color:#003399; border:0; margin:0;}
+.css_linkBox li, .table_linkBox li {margin:5px 0;}
+.css_linkBox ul, .table_linkBox ul {margin:0; padding:10px 25px; float:left; list-style-type:square;  color:#999999;}
+
+.table_linkBox {float:none; clear:inherit;}
+.table_linkBox ul {float:none;}
+#content .table_linkBox th { text-align:left; color:#FFFFFF; padding:3px;}
+#content table.table_linkBox a:link, #content table.table_linkBox a:visited { color:#235698; text-decoration:underline; }
+#content table.table_linkBox a:hover { color:#669900;}
+
+/*	FOOTER
+---------------------------------------------------------------- */
+/* holy grail - http://alistapart.com/articles/holygrail */
+body {
+  min-width: 750px;      /* 2x LC width + RC width */
+}
+#footer {
+  padding-left: 250px;   /* LC width */
+  padding-right: 250px;  /* RC width */
+}
+#footer .column {
+  position: relative;
+  float: left;
+}
+#foot_center {
+  width: 100%;
+  text-align:center;
+  padding:25px 0;
+}
+#foot_left {
+  padding:15px 0 10px 10px;	
+  width: 240px;          /* LC width */
+  right: 250px;          /* LC width */
+  margin-left: -100%;
+}
+#foot_right {
+  padding:15px 10px 10px 0;	
+  width:240px;          /* RC width */
+  margin-right: -250px;  /* RC width */
+}
+
+/*** IE6 Fix ***/
+* html #foot_left {
+  left: 250px;           /* RC width */
+}
+
+
+#footer{color:#cccccc; font-size:.7em; border-top:2px solid #ffffff; clear:both; background-color:#000066; min-height:78px;} 
+
+#footer a {color: #cccccc; text-decoration:none;}
+#footer a:hover{ color:#FFFFFF; text-decoration:underline; }
+
+#foot_center a {margin: 0px 15px 0px 15px;}
+
+#findButton { font:95% bold Verdana, Arial, Helvetica, sans-serif; text-align:center; background-color: #606E7F; color:#ffffff; padding:2px; text-transform:uppercase; letter-spacing:1px; border: 1px solid #999999; }
+#searchBox{ border:1px solid #FFF; height: 19px; color: #000066; background: #cccccc url(http://web2.uconn.edu/webtools/global/images/google.jpg) no-repeat -25px top; width:170px; margin-top:8px;}
+
+
+

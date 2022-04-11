@@ -1,0 +1,6 @@
+/* ---------------------------------------------------------------- 
+	UConn Web Template - version 3
+	IE 6.0 Hacks - version 1.01
+	Change Log: http://webtools.uconn.edu/global/log.txt
+---------------------------------------------------------------- */
+#nav_left li {height:1%;} /* mitigates IE6's <li> vertical spacing issues */

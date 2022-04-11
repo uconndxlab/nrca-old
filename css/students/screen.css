@@ -1,0 +1,176 @@
+/* --- UConn Global CSS - Remove at your own risk. ------------------------------------------------------------ */
+/* --- HEAD-FOOT CSS ------------------ */ 
+/* These files needed for header and footer areas */
+/* layout */                     @import url("global/4.0/head-foot/hf-common.css"); 
+/* colors */                     @import url("global/4.0/head-foot/hf-white.css");
+/* --- MIDDLE AREA CSS ---------------- */ 
+/* These files needed for everything between the header and footer */
+/* BASE TEMPLATE FILES */ 
+/* blueprint layout grid */      @import url("global/4.0/middle/base/grid.css"); 
+/* removes default typography */ @import url("global/4.0/middle/base/reset.css");
+/* new default typography */     @import url("global/4.0/middle/base/content.css");
+/* drop-down nav layout */       @import url("global/4.0/middle/base/nav.css");
+/* UCONN STANDARD THEME */ 
+/* common styles */    		     @import url("global/4.0/middle/uconn/common.css");
+/* custom colors and type */     @import url("global/4.0/middle/uconn/white.css");
+
+/* --- Add your CSS below this line --------------------------------------------------------------------------- */
+#body {
+	/* [disabled]background-color: #1E6987; */
+}
+#search-container {/*KB 2014 UConn banner revision code*/
+}
+.social-icons {/*KB 2014 UConn banner revision code-Kevins css*/
+	float: right;
+	text-align: right;
+	height: 30px;
+	*top: -30px;	
+	*display: block; 	
+	*position: relative;
+	margin-right: 2px;
+}
+#custom-logo {/*KB 2014 UConn banner revision code*/
+	float: left;
+	height: 69px;
+	width: 276px;
+	/* [disabled]margin-right: 100px; */
+	/* [disabled]margin-left: 40px; */
+}
+#site-header .row-fluid>div {/*KB in banner.css*/
+	width: 60%;
+}
+#nrca-photo-wrap {
+	width: 950px;
+	height: 80px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-top-width: thin;
+	border-top-style: solid;
+	/* [disabled]border-top-color: #63B4E4; */
+}
+#nav-wrap {
+	width: 950px;/*KB added */
+	margin-right: auto;/*KB added*/
+	margin-left: auto;/*KB added */
+}
+#banner-wrap {
+	width: 950px;/*KB added */
+	margin-right: auto;/*KB added*/
+	margin-left: auto;/*KB added */
+}
+/*---------------KB sub nav css-------------------------*/
+#sub_nav {
+	height: 30px;
+	background-color: #E7E7E7;
+	width: 950px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-top: 0px;
+	padding-top: 5px;
+	padding-bottom: 0px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #63B4E4;
+}
+.sub_nav {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	text-align: right;
+	color: #008C4D;
+	padding-top: 5px;
+	padding-right: 35px;
+}
+.sub_nav a:link  {
+	color: #008C4D;
+}
+.sub_nav a:visited {
+	color: #008C4D;
+}
+.sub_nav a:hover {
+	color: #CF4E30;
+}
+.sub_nav a:active {
+	color: #4A9044;
+}
+/*------------------------------------------------------*/
+#main-wrap {
+	width: 950px;/*KB added */
+	margin-right: auto;/*KB added*/
+	margin-left: auto;/*KB added */
+}
+/*----------------------footer---------------------------------*/
+#site-footer-wrap {/*KB added for inclusion of custom footer within site */
+	width: 900px;
+	height: 160px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: #E7E7E7;
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #63B4E4;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+}
+#uc-foot-wrap {/*KB modified to keep footer centered at 950px. min 100 height set by UC template */
+	/* [disabled]background-color: #EAF0EF; */
+	margin: 0px;
+	padding-top: 0px;
+}
+.footer_header {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	color: #1C6987;
+	line-height: 30px;
+	font-weight: bold;
+}	
+.footer_text {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #666;
+	line-height: 1.5em;
+}
+.footer_text a:link  {
+	color: #CF4E30;
+}
+.footer_text a:hover {
+	color: #47586C;
+}
+.footer_text a:visited {
+	color: #CF4E30;
+}
+#footer-logos {
+	padding-top: 40px;
+	padding-left: 30px;
+}
+/*-------------------------------------------------------*/
+.captions {
+	font-size: 10px;
+	color: #CF4E30;
+}
+.backTop {
+	text-align: center;
+	/* [disabled]font-family: Verdana, Geneva, sans-serif; */
+	/* [disabled]font-size: 13px; */
+	background-image: url(../../students/oldsite/images/template/arrow_up.gif);
+	background-repeat: no-repeat;
+	height: 20px;
+	clear: both;
+	background-position: 360px center;
+}
+.indexThumbs {
+	float: left;
+	height: 100px;
+	width: 100px;
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	border: thin solid #666;
+}

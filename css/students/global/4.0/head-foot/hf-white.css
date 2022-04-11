@@ -1,0 +1,60 @@
+/*
+
+	hf-white: unique styles to create the white header, grey footer.
+	
+	UConn Web Template v4
+	by UITS Web Development
+	webdev@uconn.edu
+	Mar 2010
+	
+*/
+body {
+	background-color: #1C6987;
+}
+/* Header 
+------------------------------------- */
+#uc-head-wrap {
+	background-color: #FFF;
+}
+#uc-head h1 a, #head {
+	color:#006;
+}
+
+/* Foot 
+------------------------------------- */
+#uc-foot-wrap {
+	/* [disabled]border-top: 1px solid #ccc; */
+	/* [disabled]background-color: #1C6987; */
+	/* [disabled]background-image: url(images/ft-NRCAblue.png); */
+	/* [disabled]background-repeat: repeat-x; */
+}
+#uc-foot, #uc-foot a {
+	color: #E7E7E7;
+	padding-left: 20px;
+}
+#uc-foot a:hover {
+	color:#E27829;
+}
+
+#uc-search #q {
+	border-color:#ccc;
+	background-color:#eee;
+}
+#uc-search #sa {
+	border-color:#6b87a9;
+}
+/* alert-banner touchup */
+#alert_wrapper {
+	background-color:#fff;
+}
+
+/* -----
+
+Patch 4.1 - New styles for the new uconn identity. 
+
+---- */
+
+html body.uc-uconn-wrap #uc-head-wrap #uc-head h1 a,
+html body.uc-uchc-wrap #uc-head-wrap #uc-head h1 a {
+	color:#111e42;
+	}

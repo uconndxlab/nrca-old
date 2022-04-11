@@ -1,0 +1,21 @@
+/* 
+	
+	ie: fixes for the uconn content area
+
+	UConn Web Template v.4
+	by UITS Web Development
+	webdev@uconn.edu
+	Mar. 2010
+	
+*/
+
+
+/* IE stuff */
+
+#nav2 li {_height:1px;}
+#nav2 a {_position:relative;}
+.spotlight-icon img.icon {_left:-45px;}
+a.button {
+	*min-height:1px;
+	_height:1px;
+}

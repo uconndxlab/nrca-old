@@ -1,0 +1,10 @@
+/* ---------------------------------------------------------------- 
+	UConn Web Template - version 3
+	Global Overrides for "Full Package Download" - version 1.0
+	Change Log: http://webtools.uconn.edu/global/log.txt
+---------------------------------------------------------------- */
+
+#head_uconn {background-image:url(../../../../students/oldsite/images/template/uconn_images/logo_blue.gif);}
+#nav_left li li {background-image:url(../../../../students/oldsite/images/template/uconn_images/nav_circle.gif);}
+table.table_whiteBox li {list-style-image:url(../../../../students/oldsite/images/template/uconn_images/arrow.gif);}
+#searchBox{background-image: url(../../../../students/oldsite/images/template/uconn_images/google.jpg);}

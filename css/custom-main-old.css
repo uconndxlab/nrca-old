@@ -1,0 +1,372 @@
+@charset "UTF-8";
+/* CSS Document custom css for NRCA site. Kara Bonsack August 2016 */
+/*______________________________________________*/
+body {/*background controlled in modified container css*/
+	/* [disabled]background-color: #CDDBE8!important; */
+}
+/*______________________________________________*/
+/*wrappers*/
+/*using these instead of container-fluid allows for full width background color but not content*/
+.wrapper-blue {
+	background-color: #1C6987!important;
+	margin-right: auto!important;
+	margin-left: auto!important;
+	padding-left: 0px!important;
+	padding-right: 0px!important;
+	padding-top: 20px!important;
+	padding-bottom: 20px!important;
+}
+.wrapper-ltblue {
+	background-color: #EFF4F8!important;
+	margin-right: auto!important;
+	margin-left: auto!important;
+	padding-left: 0px!important;
+	padding-right: 0px!important;
+	padding-top: 20px!important;
+	padding-bottom: 20px!important;
+}
+.wrapper-white {
+	background-color: #FFF!important;
+	margin-right: auto!important;
+	margin-left: auto!important;
+	padding-left: 0px!important;
+	padding-right: 0px!important;
+	padding-top: 20px!important;
+	padding-bottom: 20px!important;
+}
+.wrapper-gray {
+	background-color: #EFEFEF!important;
+	margin-right: auto!important;
+	margin-left: auto!important;
+	padding-left: 0px!important;
+	padding-right: 0px!important;
+	padding-top: 20px!important;
+	padding-bottom: 20px!important;
+}
+.box-ftdrkr {
+	background-color: #145E7A!important;
+	margin-right: 7px!important;
+	margin-left: 7px!important;
+	padding: 10px!important;
+}
+/*______________________________________________*/
+/*UConn Banner. Main css in banner.css*/
+#uconn-banner { /*banner container/wrap*/
+	background-color: #fff!important;
+}
+#uconn-banner h1 { /*KB*/
+	margin-top: none!important; /*KB for less top margin*/
+}
+#site-title a:link, #site-title a:visited { /*title text*/
+	color: #1B6987!important;
+	/* [disabled]font-size: 140%; */
+	/* [disabled]line-height: 1em!important; *//*KB added to control space*/
+	/* [disabled]padding-left: 10px;*/
+}
+#super-title a:link { /*title text as a link*/
+	color: #ADAFB1!important;
+}
+/*to make top white not so large EW*/
+#site-header{
+	/* [disabled]height: auto; */
+	padding-left: 10px;/*KB for small device padding*/
+	padding-right: 10px;/*KB for small device padding*/
+	padding-top: 20px;
+}
+.banner-logo { 
+	padding-bottom: 20px!important;
+}
+/*______________________________________________*/	
+/* header styles*/
+h1, h2, h3, h4, h5, h6 {
+	/*font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+	font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif;
+}
+h1 {
+	color: rgba(0,154,95,1.00);
+}
+h2 {
+	color: rgba(0,154,95,1.00);
+	font-size: x-large;
+}
+h3 {
+	color: rgba(15,97,171,1.00);
+}
+h4 {
+	color:rgba(0,154,95,1.00);
+}
+h5 {
+	color:rgba(15,97,171,1.00);
+	font-size: 18px;
+}
+h6 {
+	color: #00A767;
+}
+a {
+	color: #337AB7;
+}
+a:hover {
+	color: #238540;
+	text-decoration: underline;
+}
+ul.arrow {
+	margin-left:.9em;
+}
+ul.arrow li {
+	padding-left:1.6em;
+	list-style-type:none;	
+	background:transparent url(../test-site/global/uconn/images/green-arrow.png) no-repeat 5px .2em;
+}
+ul.arrow ul {
+	margin-left:1.2em;
+}
+ul.arrow ul li {
+	list-style-type:circle;
+	padding-left:0;
+	background:none;
+}
+/*______________________________________________*/	
+/* jumbotron*/
+.jumbotron_img {
+	/* [disabled]color: #FFFFFF; */
+	/* [disabled]padding-top: 10px; */
+	/* [disabled]padding-bottom: 10px; */
+	/* [disabled]height: 150px; */
+	/* [disabled]background-size: cover; */ /*background-color: #E3EBF2;*/
+}
+.jumbotron {
+	/* [disabled]color: #FFFFFF; */
+	/* [disabled]padding-top: 30px; */
+	margin-bottom: 0px;
+	background-image: url(../images/template/nrca-stream.jpg);
+	background-size: cover;
+	/* [disabled]background-color: #104C9B; */
+}
+.jumbotron h1, .jumbotron .h1 {
+	color: #fff;
+	font-size: 3.5em;
+	text-shadow: 1px 1px 2px #5A5B5B,0 0 25px #1B6987,0 0 5px darkblue!important;
+}
+@media (max-width:1200px) {  /*KB modified*/
+.jumbotron h1, .jumbotron .h1 {
+	font-size: 3em; !important
+}
+}
+@media (max-width:900px) {  /*KB modified*/
+.jumbotron h1, .jumbotron .h1 {
+	font-size: 2.5em; !important
+}
+}
+@media (max-width:768px) {  /*KB modified*/
+.jumbotron h1, .jumbotron .h1 {
+	font-size: 2em;!important
+}
+}
+@media (max-width:544px) {  /*KB modified*/
+.jumbotron h1, .jumbotron .h1 {
+	font-size: 2em;!important
+}
+}
+.jumbotron .small { /*KB modified*/
+}
+/*______________________________________________________*/
+/* navbar */
+
+.navbar {
+	background-color: #C3D4E3!important;
+	border: none!important;
+	margin-bottom: 0px!important;
+	border-radius: 0px!important;
+}
+.navbar ul{
+	margin-top: 0px!important;
+	margin-bottom: 0px!important;
+	padding-left: 10px!important;
+}
+.navbar a {/* text color control */
+	color: #1B6987!important;
+	font-weight: bold;
+	margin-left: 10px;
+}
+.navbar-nav > li > a { /*online help*/
+	padding-top:7px !important; 
+	padding-bottom:5px !important;
+}
+.navbar { /*online help*/
+	min-height:32px !important
+}	
+.navbar a:hover {
+	color: #00A767!important;  /*text hover control*/
+	background-color: none!important; /*background hover control*/
+}
+.dropdown:hover .dropdown-menu {/*keep for dropdowns to open on hover (but mobile issues?) http://stackoverflow.com/questions/16214326/bootstrap-dropdown-with-hover / dropdown menu background color control*/
+	display: block!important;
+	background-color: #fff!important;
+	margin-top: 0; /*remove the gap so it doesn't close?*/
+}
+.navbar-right a{
+	color: #2590BA!important; /* text control*/
+	font-style: normal;
+	font-weight: normal;
+}
+.navbar-right a:hover{
+	color: #00A767!important; /* text control*/
+}
+.navbar-toggle{
+	background-color: #fff!important;
+	margin: 5px!important;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #1B6987!important;
+}
+.dropdown-menu > li > a:focus {
+	background-color: #fff!important;
+}
+.dropdown-menu > li > a:hover {
+	background-color: #fff!important;
+}
+.divider {/* space between dropdown menu items */
+}
+.subsubnav a {/* text color control */
+	color: #00A767!important;
+}
+.subsubnav {
+	background-color: #E6E8EA!important;
+}
+/*____________________________________________*/
+/*top banner gallery section*/
+.banner-gallery {
+	background-color: #2D7DC3!important;
+	margin-right: auto!important;
+	margin-left: auto!important;
+	padding-left: 0px!important;
+	padding-right: 0px!important;
+	padding-top: 20px!important;
+	padding-bottom: 20px!important;
+}
+/*______________________________________________*/
+/*general modifications*/
+.featured {
+}
+.thumbnail {
+	border-color: #0D5773!important;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.panel {
+	background-color: #F0F0F0;border-color: #0D5773!important;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#fb-root {
+	margin-top: 30px!important;
+}
+td {
+	padding: 5px!important;
+}
+blockquote {
+	border-left: none!important;
+	font-size: inherit!important;
+}
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+	display: inline-table;
+	float: none;
+	/* reset the text-align */
+	text-align: left;
+	/* inline-block space fix */
+	margin-right: -4px;
+}
+/*______________________________________________*/
+/*button modifications*/
+.btn-custom {
+	background-color: hsla(157,100%,33%,1.00) !important;
+	background-repeat: repeat-x;
+  	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00e585", endColorstr="#006b3e");
+	background-image: -khtml-gradient(linear, left top, left bottom, from(#00e585), to(#006b3e));
+	background-image: -moz-linear-gradient(270deg,rgba(0,203,125,1.00) 0%,rgba(0,122,70,0.86) 100%);
+	background-image: -ms-linear-gradient(top, #00e585, #006b3e);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00e585), color-stop(100%, #006b3e));
+	background-image: -webkit-linear-gradient(270deg,rgba(0,203,125,1.00) 0%,rgba(0,122,70,0.86) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(0,203,125,1.00) 0%,rgba(0,122,70,0.86) 100%);
+	background-image: linear-gradient(180deg,rgba(0,203,125,1.00) 0%,rgba(0,122,70,0.86) 100%);
+	border-color: #006b3e #006b3e hsl(155, 100%, 15%);
+	color: #fff !important;
+	text-shadow: 0 -1px 0 rgba(29,29,29,0.39);
+	-webkit-font-smoothing: antialiased;
+}
+/*______________________________________________________*/
+/*News & Updates and Stay Connected sections*/
+.media {
+}
+.media-heading {
+}
+
+/*_______________________________________________________*/
+/*footer*/
+.ft-text {
+	color: #A6BEC7!important;
+}
+.ft-header {
+	font-size: 1.2em!important;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #F1F3F4;
+}
+.ft-header2 {
+	font-size: 1.2em!important;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #1B6987;
+}
+.ft-subheader {
+	font-size: 1.2em!important;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #A6BEC7;
+}
+.ft-text a {
+	color: #CCE7F3!important;
+}
+.ft-text a:hover {
+	color: #CCE7F3!important;
+}
+@media (max-width:991px) {/*KB added border for small devices*/
+.ft-header {
+	border-top: 1px solid #E6E6E6;
+	padding-top: 5px;
+}
+}
+.partner-logos {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+/*_______________________________________________________*/
+/*UConn mandatory footer*/
+#uc-foot {
+	margin-top: 0px!important;
+	padding-top: 20px!important;
+}
+#uc-foot li  {/*keeps uconn links inline with padding*/
+    display: inline!important;
+	padding-right: 20px!important;
+	padding-left: 5px!important;
+}
+/*_______________________________________________________*/
+.nopadding {
+	padding-left: 0px!important;
+	padding-bottom: 0px!important;
+	padding-top: 0px!important;
+	padding-right: 0px!important;
+}
+.imagepad {
+	padding-top: 20px!important;
+}
+/* Row with equal height columns---------------*/
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}

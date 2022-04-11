@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/* CSS Document custom css for NRCA site site. Kara Bonsack August 2016 */
+/*______________________________________________*/
+/*wrappers*/
+/*______________________________________________*/	
+/* header styles*/
+h1, h2, h3, h4, h5, h6 {
+}
+h1 {
+	/* [disabled]color: #DE4E30; */
+}
+h2 {
+	/* [disabled]color: #DE4E30; */
+}
+h3 {
+	/* [disabled]color: #DE4E30; */
+}
+h4 {
+	/* [disabled]color: #DE4E30; */
+}
+h5 {
+	/* [disabled]color: #DE4E30; */	
+}
+h6 {
+	/* [disabled]color: #DE4E30; */
+}
+a {
+	/* [disabled]color: #DE4E30; */
+}
+a:hover {
+	/* [disabled]color: #238540; */
+}
+hr {
+    border-color: #8EB3C9!important;
+}
+
+/*______________________________________________*/	
+/* jumbotron*/
+.jumbotron {
+	/* [disabled]background-color: #E6E8EA; */
+	background-image: url(../../students/images/cap-campfire.jpg);
+	background-size: cover;
+}
+/*______________________________________________________*/
+/* navbar */
+.navbar {
+	/* [disabled]margin-bottom: 0px!important; */
+	/* [disabled]background-color: #E3EBF2!important; */
+}
+.navbar a {/* text color control */
+	/* [disabled]color: #1B6987!important; */
+	/* [disabled]margin-left: 10px; */
+}
+.navbar a:hover {
+	/* [disabled]color: #238540 !important; */  /*text hover control*/
+	/* [disabled]background-color: none!important; */ /*background hover control*/
+}
+.dropdown:hover .dropdown-menu {/*keep for dropdowns to open on hover (but mobile issues?) http://stackoverflow.com/questions/16214326/bootstrap-dropdown-with-hover / dropdown menu background color control*/
+	background-color: #C3D4E3!important;
+}
+.dropdown-menu > li > a:focus {
+	background-color: #C3D4E3!important;
+}
+.dropdown-menu > li > a:hover {
+	background-color: #C3D4E3!important;
+}
+.dropdown-menu {
+	background-color: #C3D4E3!important;
+}
+.navbar-right a{
+	/* [disabled]color: #1B6987!important; */ /* text control*/
+}
+.navbar-right a:hover{
+	/* [disabled]color: #238540!important; */ /* text control*/
+}
+.divider {/* space between dropdown menu items */
+}
+/*_______________________________________________________*/
+/*main content*/
+.cover-banner {
+}
+td {
+	padding-left: 10px!important;
+	padding-right: 10px!important;
+}
+.partner-list p {
+	color: #666666;
+}
+.support-box {
+	width: 80%!important;
+	margin-left: 30px!important;
+}
+.thumbnail {
+	border-color: #9FBAD2!important;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)!important;
+}
+#infographic {
+	/* [disabled]color: padding-left:15%; */
+	/* [disabled]color: padding-right:15% */
+}
+#give {
+	/* [disabled]color: width:25%; */
+	/* [disabled]color: height:12%; */
+	/* [disabled]color: padding-left:40%; */
+	/* [disabled]color: padding-top:5%; */
+}
+/*_______________________________________________________*/
+/*footer*/
+.ft-text {
+	/* [disabled]color: #A6BEC7!important; */
+}
+.ft-header {
+	/* [disabled]color: #CCE7F3; */
+}
+.ft-text a {
+	/* [disabled]color: #CCE7F3!important; */
+}
+.ft-text a:hover {
+	/* [disabled]color: #CCE7F3!important; */
+}

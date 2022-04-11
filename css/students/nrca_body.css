@@ -1,0 +1,279 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { /* KB no text color set to allow .tableContent to control color */
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	color: #323232;
+}	
+p { /*KB no text color set to allow default (black) to control color */
+	font-weight: normal;
+	font-family: Verdana, Geneva, sans-serif;
+	margin-right: 20px;
+}
+body,td,th { 
+
+}
+.pLargerText {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;    
+}
+.tableHeader {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #002664;
+	padding: 7px;
+}
+.tableHeaderBorder {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #002664;
+	border-top-width: thin;
+	border-bottom-width: thin;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #34B5D0;
+	border-bottom-color: #34B5D0;
+	padding-top: 7px;
+	padding-right: 7px;
+	padding-bottom: 7px;
+	padding-left: 0px;
+	margin-top: 30px;
+}
+.tableContent {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+h1 {
+	font-size: 24px;
+	color: #1A6887;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+}
+h2 {
+	font-size: 20px;
+	color: #B84E2A;
+}
+h3 {
+	font-size: 20px;
+	color: #1A6887;
+}
+h4 {
+	font-size: 16px;
+	color: #BB4E2A;
+}
+h5 {
+	font-size: 16px;
+	color: #1A6887;
+}
+h6 {
+	color: #B84E2A;
+	font-size: 12px;
+}
+a:link {
+	color: #007291;
+	text-decoration: none;
+}
+a:visited {
+	color: #007291;
+	text-decoration: none;
+}
+a:hover {
+	color: #E04811;
+	text-decoration: none;
+}
+a:active {
+	color: #007291;
+	text-decoration: none;	/*text-align: center;*/
+}
+h2,h3,h4,h5,h6 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+.captions {
+	font-size: 10px;
+	color: #CF4E30;
+}
+.backTop {
+	text-align: center;
+	/* [disabled]font-family: Verdana, Geneva, sans-serif; */
+	/* [disabled]font-size: 13px; */
+	background-image: url(../../students/oldsite/images/template/arrow_up.gif);
+	background-repeat: no-repeat;
+	height: 20px;
+	clear: both;
+	background-position: 280px center;
+}
+.h2bkgrnd {
+	background-color: #E6E6E6;
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+}
+.h3bkgrnd {
+	background-color: #E2E9F3;
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+}
+.h4bkgrnd {
+	background-color: #E6E6E6;
+	padding-top: 3px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 5px;
+}	
+.footer_text {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	color: #666;
+	text-align: left;
+}	
+.footer_copyright {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10px;
+	color: #666;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}	
+.footer_text {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #666;
+	text-align: left;
+}
+.footer_header {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #666;
+}	
+.footer_underline {
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #DEDEDE;
+	width: 100px;
+}
+/*BUTTON LINKS*/
+.b-shortGray {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	background-image: url(../../students/oldsite/images/buttons/b-shortGray.gif);
+	text-align: center;
+	background-repeat: no-repeat;
+	height: 22px;
+	width: 70px;
+	line-height: 18px;
+	float: right;
+	margin-right: 15px;
+	clear: both;
+}
+.b-shortGrayonGray {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	background-image: url(../../students/oldsite/images/buttons/b-shortGrayonGray.gif);
+	text-align: center;
+	background-repeat: no-repeat;
+	height: 22px;
+	width: 70px;
+	line-height: 18px;
+	float: right;
+	margin-right: 10px;
+	clear: both;
+}
+.b-shortOrange {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	background-image: url(../../students/oldsite/images/buttons/b-shortOrange.gif);
+	text-align: center;
+	background-repeat: no-repeat;
+	height: 22px;
+	width: 70px;
+	line-height: 18px;
+	float: right;
+	margin-right: 15px;
+	clear: both;
+}
+.b-mediumOrange {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	background-image: url(../../students/oldsite/images/buttons/b-mediumOrange.gif);
+	text-align: center;
+	/* [disabled]margin-bottom: 1px; */
+	background-repeat: no-repeat;
+	height: 22px;
+	width: 97px;
+	line-height: 19px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	margin-left: 15px;
+}
+.b-largeOrange {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	background-image: url(../../students/oldsite/images/buttons/b-largeOrange.gif);
+	text-align: center;
+	background-repeat: no-repeat;
+	height: 22px;
+	width: 125px;
+	float: left;
+	line-height: 20px;
+	margin-top: 1px;
+	margin-bottom: 30px;
+	margin-left: 20px;
+}
+.b-mediumGray {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	background-image: url(../../students/oldsite/images/buttons/b-mediumGray.gif);
+	text-align: center;
+	margin-bottom: 5px;
+	background-repeat: no-repeat;
+	height: 22px;
+	width: 97px;
+	line-height: 20px;
+	margin-top: 1px;
+	margin-bottom: 30px;
+	margin-left: 140px;
+}
+.b-mediumGrayonGray {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	background-image: url(../../students/oldsite/images/buttons/b-mediumGrayonGray.gif);
+	text-align: center;
+	margin-bottom: 5px;
+	background-repeat: no-repeat;
+	height: 22px;
+	width: 119px;
+	line-height: 18px;
+	margin-top: 1px;
+	float: LEFT;
+}
+.b-largeGray {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	background-image: url(../../students/oldsite/images/buttons/b-largeGray.gif);
+	text-align: center;
+	margin-bottom: 5px;
+	background-repeat: no-repeat;
+	height: 22px;
+	width: 125px;
+	line-height: 20px;
+	margin-top: 10px;
+	float: LEFT;
+}
+.instructorPhotos {
+	margin: 0px;
+	padding-top: 15px;
+}

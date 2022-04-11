@@ -1,0 +1,220 @@
+@charset "UTF-8";
+/* CSS Document custom css for NRCA site site. Kara Bonsack August 2016 */
+/*______________________________________________*/
+/*wrappers*/
+/*______________________________________________*/	
+/* header styles*/
+h1, h2, h3, h4, h5, h6 {
+}
+h1 {
+	color: #698636;
+	font-weight: bold;
+}
+h2 {
+	color: #267B99;
+	font-weight: bold;
+	font-size: 2em;
+}
+h2 a {
+	color: #698636;
+}
+h3 {
+	color: #698636;
+	font-size: 1.5em;
+}
+h4 {
+	color: #267B99;
+	font-weight: normal;
+}
+h5 {
+	color: #698636;	
+}
+h6 {
+	color: #698636;
+}
+a {
+	color: #CA502C;
+}
+a:hover {
+	color: #698636;
+}
+.glyphicon-home {
+	color: white;
+}
+hr {
+    border-color: #A9C17F!important;
+}
+/*______________________________________________*/	
+/* general*/
+#site-title a:link, #site-title a:visited { /*title text*/
+	color: #698636!important;
+}
+.thumbnail {
+	border-color: #698636!important;
+}
+.jumbotron {
+	/* [disabled]background-color: #E6E8EA; */
+	background-image: url(../../students-adults/images/ctp-group.jpg);
+	background-size: cover;
+}
+/*______________________________________________*/	
+/* tables*/
+.thead-dark {
+	background-color: #698636!important;
+	color: #FFFFFF!important;
+	font-size: 1.3em!important;
+	letter-spacing: 1px!important;
+}
+/*______________________________________________*/
+/*button modifications*/
+.btn-custom {
+	background-color: hsla(81,43%,37%,1.00) !important;
+	background-repeat: repeat-x;
+  	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00e585", endColorstr="#006b3e");
+	background-image: -khtml-gradient(linear, left top, left bottom, from(#00e585), to(#006b3e));
+	background-image: -moz-linear-gradient(270deg,rgba(134,180,52,0.71) 0%,rgba(93,126,35,1.00) 100%);
+	background-image: -ms-linear-gradient(top, #00e585, #006b3e);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00e585), color-stop(100%, #006b3e));
+	background-image: -webkit-linear-gradient(270deg,rgba(134,180,52,0.71) 0%,rgba(93,126,35,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(134,180,52,0.71) 0%,rgba(93,126,35,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(134,180,52,0.71) 0%,rgba(93,126,35,1.00) 100%);
+	border-color: #006b3e #006b3e hsl(155, 100%, 15%);
+	color: #fff !important;
+	font-weight: 600;
+}
+.btn-custom:hover {
+	background-color: #C8502C !important;
+	background-repeat: repeat-x;
+  	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#F2A865", endColorstr="#C8502C");
+	background-image: -khtml-gradient(linear, left top, left bottom, from(#F2A865), to(#C8502C));
+	background-image: -moz-linear-gradient(270deg,rgba(242,168,101,1.00) 0%,rgba(202,81,44,1.00) 100%);
+	background-image: -ms-linear-gradient(top, #F2A865, #C8502C);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #F2A865), color-stop(100%, #C8502C));
+	background-image: -webkit-linear-gradient(270deg,rgba(242,168,101,1.00) 0%,rgba(202,81,44,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(242,168,101,1.00) 0%,rgba(202,81,44,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(242,168,101,1.00) 0%,rgba(202,81,44,1.00) 100%);
+	border-color: #C8502C #C8502C hsl(155, 100%, 15%);
+	color: #FFFFFF;
+	font-weight: 600;
+}
+.btn-custom2 {
+	background-color: hsla(81,43%,37%,1.00) !important;
+	color: #fff !important;
+}
+/*______________________________________________________*/
+/* navbar */
+.navbar {
+	/* [disabled]margin-bottom: 0px!important; */
+	background-color: #698636!important;
+}
+.navbar a {/* text color control */
+	color: #FFFFFF!important;
+	font-weight: bold;
+}
+.navbar a:hover {
+	color: #EFD7A0 !important; /*text hover control*/
+}
+.dropdown:hover .dropdown-menu {/*keep for dropdowns to open on hover (but mobile issues?) http://stackoverflow.com/questions/16214326/bootstrap-dropdown-with-hover / dropdown menu background color control*/
+	background-color: #698636!important;
+}
+.dropdown-menu > li > a:focus {
+	background-color: #698636!important;
+}
+.dropdown-menu > li > a:hover {
+	background-color: #698636!important;
+}
+.dropdown-menu {
+	background-color: #698636!important;
+}
+.navbar-right a{
+	/* [disabled]color: #1B6987!important; */ /* text control*/
+	font-style: normal;
+	font-weight: normal;
+}
+.navbar-right a:hover{
+	/* [disabled]color: #238540!important; */ /* text control*/
+}
+.divider {/* space between dropdown menu items */
+}
+/*______________________________________________________*/
+/* nav pills */	
+.nav.nav-pills { 
+	padding-top: 7px!important;
+	padding-bottom: 7px!important;
+	
+}
+.nav.nav-pills a{
+	color: #698636!important;
+	background-color: #E6EDD9!important;
+	margin-right: 5px!important;
+	margin-bottom: 2px!important;
+	padding-left: 10px!important;
+	padding-right: 10px!important;
+	padding-top: 7px!important;
+	padding-bottom: 7px!important;
+}
+.nav.nav-pills a:hover{
+	background-color: #E09D78!important;
+	color: #FFF!important;
+}
+/*______________________________________________*/
+/*cards*/
+.card a {
+}
+.card li {
+	line-height: 1.2!important;
+	padding-bottom: 7px!important;
+	margin-left: -1em!important;
+}
+.card a:hover {
+}
+.card a:visited {
+}
+.card a:focus {
+}
+.card {
+	background-color: #FFF!important;
+	border-color: #337AB7!important;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 20px!important;
+}
+.card-title {
+
+}
+.card-header {
+	font-weight: normal!important;
+	letter-spacing: 1.5px!important;
+	font-size: 1.5em!important;
+	padding-left: 10px!important;
+	padding-right: 10px!important;
+	padding-top: 3px!important;
+	padding-bottom: 3px!important;
+}
+.card-block {
+	padding-left: 20px!important;
+	padding-right: 10px!important;
+	padding-top: 10px!important;
+	padding-bottom: 10px!important;
+}
+.queue-card-block {
+	padding-left: 10px!important;
+	padding-right: 10px!important;
+	padding-top: 10px!important;
+	padding-bottom: 10px!important;
+	background-color: #EBEFF5!important;
+}
+
+/*_______________________________________________________*/
+/*footer*/
+.ft-text {
+	/* [disabled]color: #A6BEC7!important; */
+}
+.ft-header {
+	/* [disabled]color: #CCE7F3; */
+}
+.ft-text a {
+	/* [disabled]color: #CCE7F3!important; */
+}
+.ft-text a:hover {
+	/* [disabled]color: #CCE7F3!important; */
+}

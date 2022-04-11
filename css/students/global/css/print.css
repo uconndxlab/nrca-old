@@ -1,0 +1,91 @@
+/* ---------------------------------------------------------------- 
+	UConn Web Template - version 3
+	Print Styles - version 1.0
+	Change Log: http://webtools.uconn.edu/global/log.txt
+---------------------------------------------------------------- */
+
+
+/* Print black on white */
+html, body, div { background-color: #FFFFFF; color:#000000; }
+
+/* DIVs print better as block-level elements */
+div { display:block; } 
+
+/* No line break when printing banner */
+div#header {white-space:nowrap; }
+
+/* stuff from global.css */
+#content table, #content th, #content td {font-family:inherit; font-size: inherit; color:#606E7F;}
+#content table tbody a:link, #content table tbody a:visited { color:#606E7F; text-decoration:none; }
+#content table tbody a:hover { color:#669900; text-decoration:underline; }
+table.table_whiteBox { background-color:#FFFFFF; border:1px solid #606E7F; }
+table.table_whiteBox th { background-color:#606E7F; color:#FFFFFF; text-align:left; font-weight:bold; padding:5px; }
+table.table_whiteBox li { list-style-image:url(../../../../_design/arrow.gif); margin-bottom:10px; }
+table.table_whiteBox td { padding:5px; text-align:left }
+table.table_whiteBox2 { background-color:#FFFFFF; border:1px solid #606E7F; }
+table.table_whiteBox2 td { text-align: left; }
+table.table_whiteBox2 thead td { background-color:#606E7F; color:#FFFFFF; font-weight:bold; padding:5px; padding-right:20px; }
+table.table_whiteBox2 tfoot td { background-color:#869AB3; color:#FFFFFF; font-weight:bold; padding:5px; padding-left:20px; padding-right:20px; }
+table.table_whiteBox2 tbody td { line-height: 2.2em;  padding-left:20px; padding-right:20px;}
+table.table_whiteBox2 tbody tr.highlighted { background-color:#E7EBEE; }
+table.table_topBorder td {
+	border-top:1px solid #cccccc;
+	padding:4px;
+	color:#333333;
+	}
+table.table_topBorder {
+	border-collapse: collapse;
+	}
+table.table_topBorder th {
+	padding:4px;
+	color:#000000;
+	font-weight:bold;
+	text-align:left;
+	}
+table.table_fullBorder {
+	border-bottom:1px solid #cccccc;
+	border-collapse: collapse;
+	}
+table.table_fullBorder td {
+	border:1px solid #cccccc;
+	border-bottom:0px;
+	padding:4px;
+	color:#333333;
+	}
+table.table_fullBorder td+td {
+	border-left:0px;
+	}
+table.table_fullBorder th {
+	text-align: left;
+	font-weight:bold;
+	color:#000000;
+	}
+table.table_noBorder {
+	border-collapse: collapse;
+	}	
+table.table_noBorder td{
+	padding:4px;
+	color:#333333;
+	}
+
+/* extra stuff */
+#skip_content {display:none;}
+#head_uconn a, #head_site a {font-family:"Adobe Garamond Pro","Adobe Garamond", Garamond, "Times New Roman", Times, serif; color:#000000; text-decoration:none; font-size:18pt;}
+#head_uconn {float:none;}
+#head_uconn, #head_site {display:inline;}
+#head_uconn {margin-right:7px;}
+#header {padding-bottom:5px; border-bottom:1px solid #999999; margin-bottom:8px;}
+#head_uconn img {position:relative; top:5px; padding-right:3px;}
+#center_wrapper, #footer {clear:both;}
+#jumpmenu,
+#nav_top,
+#nav_left,
+#leftColumn,
+#foot_left,
+#foot_center {display:none;}
+#content h1 {font-size:20pt;}
+#content h2 {font-size:17pt;}
+#content h3 {font-size:14pt;}
+#content h4, #content h5, #content h6 {font-size:14pt;}
+#content p {font-size:12pt;}
+#foot_right {float:none; border-top:1px solid #CCCCCC; padding-top:10px;}

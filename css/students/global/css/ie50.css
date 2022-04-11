@@ -1,0 +1,19 @@
+/* ---------------------------------------------------------------- 
+	UConn Web Template - version 3
+	IE 5.0 Hacks - version 1.1
+	Change Log: http://webtools.uconn.edu/global/log.txt
+---------------------------------------------------------------- */
+
+/* negative text indent fix. */
+#head_uconn a {text-indent:0px; font-size:.1em;}
+#head_uconn a img {display:none;}
+
+#findButton {padding:0;}
+
+/* centers middle links, switches them from horizontal to vertical stack */
+#footer a {display:block;}
+#footer #foot_right a {display:inline;}
+
+#jumpmenu { margin-top:0px;}
+
+#nav_left li li a {display:inline;}

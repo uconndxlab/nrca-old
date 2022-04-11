@@ -1,0 +1,21 @@
+/* alert.css version 1.02 */
+
+
+/*	Crisis / Alert / Emergency
+---------------------------------------------------------------- */
+a#alert {display:block; margin:20px; padding:20px; background-color:#c81000; border:5px solid white; font:.8em Helvetica, Arial, sans-serif; color:#FFFFFF; text-decoration:none; line-height:1.3em; padding:20px 18em; color:#fffb92; min-height:1.5em;}
+a#alert:hover {background-color:#a70d00;}
+a#alert strong {disaply:block; font-size:1.5em; line-height:1.1em; float:left; position:relative; width:210px; margin-left:-215px;}
+a#alert em {font-style:normal;}
+a#alert span {display:block; float:right; width:18em; position:relative; width:200px; margin-right:-220px; top:-.5em;}
+ * html a#alert span {margin-right:-110px;}
+ 
+a#alert.notEmergency {background-color:#f8b738; color:black; border:5px solid #e25516;}
+a#alert.notEmergency {background-color:#eb9213;}
+
+@media only screen and (min-width: 0px) and (max-width: 728px){
+body{margin-top:58px;}
+     div#alert_wrapper{height:58px;}
+     a#alert_link{text-indent:5px; font-size:11px; line-height:32px; height:45px; margin:0px; padding:0px;}
+     a#alert_link span{left:0px;}
+}/*/mediaquery*/

@@ -1,0 +1,15 @@
+/* ---------------------------------------------------------------- 
+	UConn Web Template - version 3
+	IE (all versions) Hacks - version 1.0
+	Change Log: http://webtools.uconn.edu/global/log.txt
+---------------------------------------------------------------- */
+
+#jumpmenu { margin-top:3px;}
+
+/* min-height hack for ie */
+
+/*\*/
+* html #footer {
+height: 78px;
+}
+/**/

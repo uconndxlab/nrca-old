@@ -1,0 +1,84 @@
+/*
+
+	hf-ie: layout fixes for the header in IE
+	
+	UConn Web Template v4
+	by UITS Web Development
+	webdev@uconn.edu
+	Feb 2010
+	
+	v.1.1 (02 AUG 2010)
+	
+*/
+
+/* fixes ie clipping off decenders on text */
+#uc-head-wrap {
+	_height:90px;
+}
+
+#uc-head h1 a {
+	line-height:1.1em;
+	padding-bottom:.1em;
+}
+/* poisitioning fixes */
+#uc-head {
+	padding-top:16px;
+	_height:72px;
+}
+#uc-head h1 #uc-secondary-title a {
+	margin-bottom:-10px;
+}
+#uc-head h1 #uc-website-title a {
+	padding-top:14px;	
+}
+/* .cufon */
+#uc-head-wrap.cufon #uc-head {
+	padding-top:17px;
+	*padding-top:15px;
+}
+#uc-head-wrap.cufon #uc-head h1 #uc-secondary-title a {
+	margin-bottom:-9px;
+	*margin-bottom:-12px;
+	margin-top:-9px;
+}
+
+#uc-head-wrap.cufon #uc-head h1 #uc-website-title a {
+	padding-top:7px;
+	*padding-top:4px;
+}
+
+/*.long */
+#uc-head-wrap.cufon #uc-head.long h1 #uc-secondary-title a {
+	margin-bottom:-17px;
+	*margin-bottom:-23px;
+}
+#uc-head-wrap.cufon #uc-head.long {
+	padding-top:14px;
+	*padding-top:11px;
+}
+#uc-head-wrap.cufon #uc-head.long h1 #uc-website-title a {
+	padding-top:12px;
+}
+
+/* multi */
+#uc-head-wrap.cufon #uc-head.multi h1 #uc-website-title a { 
+	padding-top:0px;
+}
+#uc-head-wrap.cufon #uc-head.multi h1 #uc-secondary-title a { margin-bottom:-5px;}
+
+/* multi-secondary */
+
+#uc-head-wrap.multi-secondary h1 a#uc-uconn {*top:18px;}
+
+/* search */
+
+#uc-search #sa {
+	padding-top:3px;
+}
+
+/* Patch May 2013 */
+html body.uc-uconn-wrap #uc-head-wrap #uc-head h1 #uc-website-title a, 
+html body.uc-uchc-wrap #uc-head-wrap #uc-head h1 #uc-website-title a {
+	padding-top:7px;
+	*padding-top:0;
+}

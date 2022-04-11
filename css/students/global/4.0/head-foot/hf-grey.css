@@ -1,0 +1,46 @@
+/*
+
+	hf-grey: grey header
+	
+	UConn Web Template v4
+	by UITS Web Development
+	webdev@uconn.edu
+	Mar 2010
+
+*/
+body {
+	background-color:#eee;
+}
+/* Header 
+------------------------------------- */
+#uc-head-wrap {
+	background:#b7b7b7 url(images/hd-grey.png) repeat-x;
+}
+#uc-head h1 a, #uc-head {
+	color:#006;
+}
+#uc-foot-wrap {
+	border-top:1px solid #aaa;
+	background:#eeeeee url(images/ft-grey.png) repeat-x;
+}
+#uc-foot, #uc-foot a {
+	color:#444;
+}
+#uc-foot a:hover {
+	color:#06C;
+}
+
+#uc-search #q {
+	border-color:#aaa;
+	background-color:#eee;
+}
+#uc-search #sa {
+	border-color:#6b87a9;
+}
+
+/* -------- Placeholder test for UC Patch 4.1 */
+
+html body.uc-uconn-wrap #uc-head-wrap #uc-head h1 a,
+html body.uc-uchc-wrap #uc-head-wrap #uc-head h1 a {
+	color:#111e42;
+	}

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#search {
+	height: 31px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 0px;
+	width: 200px;
+}
+#sitesearchtext {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #666;
+	width: 150px;
+	float: left;
+	margin-top: 4px;
+	margin-bottom: 0px;
+}
+#gobutton {
+	float: left;
+	margin-left: 7px;
+}
+#searchsitelabel {
+	display: none;
+}
+.radiobutton {
+	display: none;
+}

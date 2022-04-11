@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<gpx
+ version="1.0"
+ creator="DNRGarmin - http://www.dnr.state.mn.us/mis/gis/tools/arcview/extensions/DNRGarmin/DNRGarmin.html"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/0"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+ <author>CAC06008</author>
+ <time>2013-07-02T13:35:32Z</time>
+ <wpt lat="41.804199172" lon="-72.25314335">
+   <ele>220.50647</ele>
+   <time>2012-06-27T08:44:46Z</time>
+   <name>UConn1</name>
+   <cmt>UConn1</cmt>
+   <src>garmin GPSMap60CSX</src>
+ </wpt>
+ <wpt lat="41.806539148" lon="-72.248480497">
+   <ele>193.109131</ele>
+   <time>2012-06-27T09:29:55Z</time>
+   <name>UConn3</name>
+   <cmt>UConn3</cmt>
+   <src>garmin GPSMap60CSX</src>
+ </wpt>
+ <wpt lat="41.805994827" lon="-72.254539607">
+   <ele>196.233398</ele>
+   <time>2012-06-27T11:50:40Z</time>
+   <name>UConn4</name>
+   <cmt>UConn4</cmt>
+   <src>garmin GPSMap60CSX</src>
+ </wpt>
+ <wpt lat="41.807992486" lon="-72.256876901">
+   <ele>194.551025</ele>
+   <time>2012-06-27T12:00:59Z</time>
+   <name>UConn5</name>
+   <cmt>UConn5</cmt>
+   <src>garmin GPSMap60CSX</src>
+ </wpt>
+ <wpt lat="41.814110437" lon="-72.252218993">
+   <ele>198.156006</ele>
+   <time>2012-06-28T09:19:04Z</time>
+   <name>UConn6</name>
+   <cmt>UConn6</cmt>
+   <src>garmin GPSMap60CSX</src>
+ </wpt>
+ <wpt lat="41.809269637" lon="-72.259813501">
+   <ele>182.053955</ele>
+   <time>2012-06-28T09:52:04Z</time>
+   <name>UConn7</name>
+   <cmt>UConn7</cmt>
+   <src>garmin GPSMap60CSX</src>
+ </wpt>
+ <wpt lat="41.812793389" lon="-72.259328943">
+   <ele>197.19458</ele>
+   <time>2012-06-28T10:05:32Z</time>
+   <name>UConn8</name>
+   <cmt>UConn8</cmt>
+   <src>garmin GPSMap60CSX</src>
+ </wpt>
+ <wpt lat="41.813447848" lon="-72.248080513">
+   <ele>188.062256</ele>
+   <time>2012-06-28T10:41:29Z</time>
+   <name>UConn9</name>
+   <cmt>UConn9</cmt>
+   <src>garmin GPSMap60CSX</src>
+ </wpt>
+ <wpt lat="41.81469826" lon="-72.245465778">
+   <ele>194.070435</ele>
+   <time>2012-06-28T13:06:42Z</time>
+   <name>UConn10</name>
+   <cmt>UConn10</cmt>
+   <src>garmin GPSMap60CSX</src>
+ </wpt>
+ <wpt lat="41.820300976" lon="-72.240071772">
+   <ele>150.811401</ele>
+   <time>2012-06-28T13:39:04Z</time>
+   <name>UConn11</name>
+   <cmt>UConn11</cmt>
+   <src>garmin GPSMap60CSX</src>
+ </wpt>
+</gpx>

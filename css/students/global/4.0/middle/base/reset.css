@@ -1,0 +1,28 @@
+/* 
+	
+	reset: strips out default browser stylings for html elements.
+
+	UConn Web Template v.4
+	by UITS Web Development
+	webdev@uconn.edu
+	Mar. 2010
+	
+*/
+caption, abbr, acronym, address, big, cite, code, del, dfn, em, font, applet, ins, kbd, s, samp, small, strike, sub, sup, tt, var, pre, fieldset, dl, dt, dd, label, legend, html, body, div, span,  object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a,  img,  ol, ul, li, form, table,  tbody, tfoot, thead, tr, th, td, hr {margin:0; padding:0; border:0; outline:0; font-weight:normal; font-size:100%; font-family:inherit; vertical-align:baseline; background-image:none; font-style:normal; text-decoration:none;}
+body {line-height:1; color:black;}
+acronym {font-weight:inherit;}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+th, td {text-align: left;font-weight: normal;}
+blockquote:before, blockquote:after,
+address {font-style:normal;}
+a {text-decoration:none;}
+strong {
+	/* [disabled]font-weight:normal; */
+}
+body {font-size:.625em;} /* With this a font-size of 1.0em = 10pt, 1.1em = 11pt, 1.2em = 12pt, and so on. */

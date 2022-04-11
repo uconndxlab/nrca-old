@@ -1,0 +1,40 @@
+Change Log for:
+UConn Web Template - version 3
+
+* alert.css - v1.01			Changed on: 3/10/08 by AB
+----------------------------------------------------------------
+- added styles for the non-emergency yellow banner class="notEmergency"
+- removed several redundant color:#ffffff from previous styles.
+
+
+* global.css - v1.3			Changed on: 7/30/07 by AB
+----------------------------------------------------------------
+- added margin:0; to #content div.css_linkBox h4, #content table.table_linkBox th
+This was to fix a display error in FFox and Safari. 
+
+
+* global.css - v1.2			Changed on: 7/17/07 by AB
+----------------------------------------------------------------
+- removed display:inline from #nav_left li li a {} it was cuasing a minor display problem for long link titles. 
+
+* ie50.css - v1.1			Changed on: 7/17/07 by AB
+* ie55.css - v1.1			Changed on: 7/17/07 by AB
+----------------------------------------------------------------
+- added #nav_left li li a {display:inline;} to each stylesheet. This helps the display of the left-column nav in IE5/5.5
+
+----------------------------------------------------------------
+- added a height of 1% to the <li> of #left_nav, to mitigate the IE6 LI spacing bug.
+
+* ie6.css - v1.01			Changed on: 7/9/07 by AB
+----------------------------------------------------------------
+- added a height of 1% to the <li> of #left_nav, to mitigate the IE6 LI spacing bug.
+
+* global.css - v1.1			Changed on: 6/7/07 by AB
+----------------------------------------------------------------
+- fixed a bug in the header CSS that caused the header to be very tall in IE7.
+- condensed the CSS
+- added more comments
+
+* All Files				Changed on: 6/7/07 by AB
+----------------------------------------------------------------
+- added version number comments at the head of each file.

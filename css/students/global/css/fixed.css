@@ -1,0 +1,9 @@
+/* ---------------------------------------------------------------- 
+	UConn Web Template - version 3
+	Default Fixed Width Layout - version 1.0
+	Change Log: http://webtools.uconn.edu/global/log.txt
+---------------------------------------------------------------- */
+
+body {padding: 25px 0; background-color:#666666;}
+#wrapper {width:900px; margin:auto; border:2px solid white;}
+#header {position:relative; float:left;}

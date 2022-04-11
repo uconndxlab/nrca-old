@@ -1,0 +1,49 @@
+/* 
+	
+	grey: styles unique to the grey header template
+	
+	UConn Web Template v.4
+	by UITS Web Development
+	webdev@uconn.edu
+	Mar. 2010
+	
+*/
+/* Nav 
+------------------------------------- */
+#nav-wrap {
+	background:#0c1c67 url(images/nav-blue.png) repeat-x; 
+	border-top:1px solid #134A95;
+	border-bottom:1px solid #00295f;
+}
+#nav a {
+	color:#fff;
+	letter-spacing:1px;
+}
+#nav li li a {
+	letter-spacing:0
+}
+#nav a:hover {
+	background:#294087 url(images/nav-blue-hover.png) repeat-x;
+}
+#nav ul ul {
+	background-color:#262651;
+}
+#nav ul ul a {
+	color:#99CCFF;
+}
+#nav ul ul a:hover {
+	color:white;
+}
+#nav span.sf-sub-indicator {
+	background-image:url(images/arrow-sprite2.png);
+	background-position:0 0;
+	width:9px;
+	top:1.3em;
+}
+#nav li.sfHover span.sf-sub-indicator {
+	background-position:-9px 0;
+}
+#nav ul ul span.sf-sub-indicator {
+	background-image:url(images/arrow-sprite.png);
+	position:0 -0;
+}

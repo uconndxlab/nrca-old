@@ -1,0 +1,41 @@
+/* 
+	
+	blueG.css: unique styles for the Blue Gradient header template
+	
+	UConn Web Template v.4
+	by UITS Web Development
+	webdev@uconn.edu
+	Mar. 2010
+	
+*/
+
+
+#nav-wrap {
+	background-color:#b1b1b1; 
+	background-image: url(images/nav-grey.png);
+	background-repeat:repeat-x;
+	border-top:1px solid white;
+	border-bottom:1px solid black;
+}
+#nav a {
+	color:#333;
+	letter-spacing:1px;
+}
+#nav li li a {
+	letter-spacing:0
+}
+#nav a:hover, #nav li li a, #nav ul ul, #nav li.sfHover a {
+	background-color:#202631;
+	color:white;
+}
+#nav li.sfHover li a:hover, #nav li.sfHover li.sfHover a {
+	background-color:#5F728D;
+}
+#nav li.sfHover li li a:hover {
+	text-decoration:underline;
+}
+
+#main-wrap {
+	border-top:5px solid #374253;
+	border-bottom:1px solid #999;
+}

@@ -1,0 +1,81 @@
+/*
+	Coin Slider jQuery plugin CSS styles
+	http://workshop.rs/projects/coin-slider
+*/
+
+/*Main div controls*/
+.coin-slider {
+	overflow: hidden;
+	zoom: 1;
+	position: relative;
+	z-index: 1;
+	height: 160px;/*KB entire gallery, not just image size.*/
+	width: 720px;
+}
+#leftText {
+	/* [disabled]background-color: #CCC; */
+	/* [disabled]margin: 10px; */
+	/* [disabled]height: 100px; */
+	/* [disabled]width: 100px; */
+	/* [disabled]float: left; */
+}
+#rightImage {
+	/* [disabled]background-color: #C63; */
+	/* [disabled]height: 200px; */
+	/* [disabled]float: left; */
+}
+.coin-slider a{ 
+	text-decoration: none;
+	outline: none;
+	border: none;
+}
+/*Thumbnail squares*/
+.cs-buttons { 
+	font-size: 0px;
+	padding: 5px;
+	float: left;
+	z-index: 20;
+}
+.cs-buttons a {
+	margin-left: 5px;
+	margin-top: 5px;
+	height: 10px;
+	width: 10px;
+	float: left;
+	border: 1px solid #666;
+	color: #333;
+	text-indent: -1000px;
+}
+.cs-active {
+	background-color: #666;
+	color: #FFFFFF;
+}
+/*title/description text box controls*/
+.cs-title {
+	/* [disabled]width: 720px; */
+	/* [disabled]padding: 10px; */
+	/* [disabled]background-color: #000000; */
+	/* [disabled]color: #FFFFFF; */
+	/* [disabled]font-family: Verdana, Geneva, sans-serif; */
+	/* [disabled]font-size: 13px; */
+}
+/*back and forward button controls
+.cs-prev, 
+.cs-next { background-color: #000000; color: #FFFFFF; padding: 0px 10px; }*/
+
+
+a.cs-prev:link {background-color: #000000; color: #FFFFFF; padding: 0px 10px;}
+a.cs-prev:visited {background-color: #000000; color: #FFFFFF; padding: 0px 10px;}
+a.cs-prev:hover  {
+	background-color: #000000;
+	color: #F90;
+	padding: 0px 10px;
+}
+
+a.cs-next:link {background-color: #000000; color: #FFFFFF; padding: 0px 10px;}
+a.cs-next:visited {background-color: #000000; color: #FFFFFF; padding: 0px 10px;}
+a.cs-next:hover  {
+	background-color: #000000;
+	color: #F90;
+	padding: 0px 10px;
+}

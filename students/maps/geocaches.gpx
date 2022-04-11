@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GDAL 1.9.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ogr="http://osgeo.org/gdal" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <bounds minlat="41.795549970000003" minlon="-72.259813500999996" maxlat="41.833683020000002" maxlon="-72.218367001000004" />
+  </metadata>
+  <wpt lat="41.807732983" lon="-72.218367001">
+    <name>GCW7ZM</name>
+    <cmt>Namesake by Jestjuggle, Tradit</cmt>
+    <desc>Namesake by Jestjuggle, Tradit</desc>
+    <src>garmin GPSMap60CSX </src>
+    <sym>Geocache</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <ogr:lat>41.807732983</ogr:lat>
+      <ogr:lon>-72.218367001</ogr:lon>
+      <ogr:y_proj>41.807732983</ogr:y_proj>
+      <ogr:x_proj>-72.218367001</ogr:x_proj>
+    </extensions>
+  </wpt>
+  <wpt lat="41.83368302" lon="-72.242733026">
+    <name>GCW93T</name>
+    <cmt>Mason's Mill by Jestjuggle, Tr</cmt>
+    <desc>Mason's Mill by Jestjuggle, Tr</desc>
+    <src>garmin GPSMap60CSX </src>
+    <sym>Geocache</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <ogr:lat>41.83368302</ogr:lat>
+      <ogr:lon>-72.242733026</ogr:lon>
+      <ogr:y_proj>41.83368302</ogr:y_proj>
+      <ogr:x_proj>-72.242733026</ogr:x_proj>
+    </extensions>
+  </wpt>
+  <wpt lat="41.79554997" lon="-72.257899996">
+    <name>GCW7ZW</name>
+    <cmt>Owen?s Mere by Jestjuggle, Tra</cmt>
+    <desc>Owen?s Mere by Jestjuggle, Tra</desc>
+    <src>garmin GPSMap60CSX </src>
+    <sym>Geocache</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <ogr:lat>41.79554997</ogr:lat>
+      <ogr:lon>-72.257899996</ogr:lon>
+      <ogr:y_proj>41.79554997</ogr:y_proj>
+      <ogr:x_proj>-72.257899996</ogr:x_proj>
+    </extensions>
+  </wpt>
+  <wpt lat="41.83181704" lon="-72.241299972">
+    <name>GC1R6XR</name>
+    <cmt>The Bridges Less Traveled - Fe</cmt>
+    <desc>The Bridges Less Traveled - Fe</desc>
+    <src>garmin GPSMap60CSX </src>
+    <sym>Geocache</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <ogr:lat>41.83181704</ogr:lat>
+      <ogr:lon>-72.241299972</ogr:lon>
+      <ogr:y_proj>41.83181704</ogr:y_proj>
+      <ogr:x_proj>-72.241299972</ogr:x_proj>
+    </extensions>
+  </wpt>
+  <wpt lat="41.820499962" lon="-72.229433041">
+    <name>GC1GGCC</name>
+    <cmt>Cougars on the Fenton by mooko</cmt>
+    <desc>Cougars on the Fenton by mooko</desc>
+    <src>garmin GPSMap60CSX </src>
+    <sym>Geocache</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <ogr:lat>41.820499962</ogr:lat>
+      <ogr:lon>-72.229433041</ogr:lon>
+      <ogr:y_proj>41.820499962</ogr:y_proj>
+      <ogr:x_proj>-72.229433041</ogr:x_proj>
+    </extensions>
+  </wpt>
+  <wpt lat="41.828350034" lon="-72.238799985">
+    <name>GC1R6YA</name>
+    <cmt>Stake after Sundown by Miles S</cmt>
+    <desc>Stake after Sundown by Miles S</desc>
+    <src>garmin GPSMap60CSX </src>
+    <sym>Geocache</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <ogr:lat>41.828350034</ogr:lat>
+      <ogr:lon>-72.238799985</ogr:lon>
+      <ogr:y_proj>41.828350034</ogr:y_proj>
+      <ogr:x_proj>-72.238799985</ogr:x_proj>
+    </extensions>
+  </wpt>
+  <wpt lat="41.826217007" lon="-72.229232965">
+    <name>GC1W71W</name>
+    <cmt>Thompson Cemetery by Bogart an</cmt>
+    <desc>Thompson Cemetery by Bogart an</desc>
+    <src>garmin GPSMap60CSX </src>
+    <sym>Geocache</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <ogr:lat>41.826217007</ogr:lat>
+      <ogr:lon>-72.229232965</ogr:lon>
+      <ogr:y_proj>41.826217007</ogr:y_proj>
+      <ogr:x_proj>-72.229232965</ogr:x_proj>
+    </extensions>
+  </wpt>
+  <wpt lat="41.807716973" lon="-72.252216982">
+    <name>GC247A8</name>
+    <cmt>Uconn's Duker Garden by shadyh</cmt>
+    <desc>Uconn's Duker Garden by shadyh</desc>
+    <src>garmin GPSMap60CSX </src>
+    <sym>Geocache</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <ogr:lat>41.807716973</ogr:lat>
+      <ogr:lon>-72.252216982</ogr:lon>
+      <ogr:y_proj>41.807716973</ogr:y_proj>
+      <ogr:x_proj>-72.252216982</ogr:x_proj>
+    </extensions>
+  </wpt>
+  <wpt lat="41.823833026" lon="-72.246532962">
+    <name>GC102PB</name>
+    <cmt>Cows in the Fog by mookon, Tra</cmt>
+    <desc>Cows in the Fog by mookon, Tra</desc>
+    <src>garmin GPSMap60CSX </src>
+    <sym>Geocache</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <ogr:lat>41.823833026</ogr:lat>
+      <ogr:lon>-72.246532962</ogr:lon>
+      <ogr:y_proj>41.823833026</ogr:y_proj>
+      <ogr:x_proj>-72.246532962</ogr:x_proj>
+    </extensions>
+  </wpt>
+  <wpt lat="41.82269996" lon="-72.243683031">
+    <name>GC18K55</name>
+    <cmt>Bad Cow Jokes by mookon, Tradi</cmt>
+    <desc>Bad Cow Jokes by mookon, Tradi</desc>
+    <src>garmin GPSMap60CSX </src>
+    <sym>Geocache</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <ogr:lat>41.82269996</ogr:lat>
+      <ogr:lon>-72.243683031</ogr:lon>
+      <ogr:y_proj>41.82269996</ogr:y_proj>
+      <ogr:x_proj>-72.243683031</ogr:x_proj>
+    </extensions>
+  </wpt>
+  <wpt lat="41.810803022" lon="-72.249792013">
+    <name>GC1ZAJ9</name>
+    <cmt>UC Outdoors 2 by UConnOutdoors</cmt>
+    <desc>UC Outdoors 2 by UConnOutdoors</desc>
+    <src>garmin GPSMap60CSX </src>
+    <sym>Geocache</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <ogr:lat>41.810803022</ogr:lat>
+      <ogr:lon>-72.249792013</ogr:lon>
+      <ogr:y_proj>41.810803022</ogr:y_proj>
+      <ogr:x_proj>-72.249792013</ogr:x_proj>
+    </extensions>
+  </wpt>
+  <wpt lat="41.815033033" lon="-72.224267023">
+    <name>GCVRRE</name>
+    <cmt>Average Age by Jestjuggle, Mul</cmt>
+    <desc>Average Age by Jestjuggle, Mul</desc>
+    <src>garmin GPSMap60CSX </src>
+    <sym>Geocache</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <ogr:lat>41.815033033</ogr:lat>
+      <ogr:lon>-72.224267023</ogr:lon>
+      <ogr:y_proj>41.815033033</ogr:y_proj>
+      <ogr:x_proj>-72.224267023</ogr:x_proj>
+    </extensions>
+  </wpt>
+  <wpt lat="41.808149982" lon="-72.253366979">
+    <name>GCH6AB</name>
+    <cmt>Connecticut's 1st WebCamCache</cmt>
+    <desc>Connecticut's 1st WebCamCache</desc>
+    <src>garmin GPSMap60CSX </src>
+    <sym>Geocache</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <ogr:lat>41.808149982</ogr:lat>
+      <ogr:lon>-72.253366979</ogr:lon>
+      <ogr:y_proj>41.808149982</ogr:y_proj>
+      <ogr:x_proj>-72.253366979</ogr:x_proj>
+    </extensions>
+  </wpt>
+  <wpt lat="41.812183019" lon="-72.250933042">
+    <name>GC2D9XX</name>
+    <cmt>Old Storrs Cemetery by Tracker</cmt>
+    <desc>Old Storrs Cemetery by Tracker</desc>
+    <src>garmin GPSMap60CSX </src>
+    <sym>Geocache</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <ogr:lat>41.812183019</ogr:lat>
+      <ogr:lon>-72.250933042</ogr:lon>
+      <ogr:y_proj>41.812183019</ogr:y_proj>
+      <ogr:x_proj>-72.250933042</ogr:x_proj>
+    </extensions>
+  </wpt>
+  <wpt lat="41.832666965" lon="-72.244332964">
+    <name>GCRHE7</name>
+    <cmt>Shroud of Shadows by Bemused,</cmt>
+    <desc>Shroud of Shadows by Bemused,</desc>
+    <src>garmin GPSMap60CSX </src>
+    <sym>Geocache</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <ogr:lat>41.832666965</ogr:lat>
+      <ogr:lon>-72.244332964</ogr:lon>
+      <ogr:y_proj>41.832666965</ogr:y_proj>
+      <ogr:x_proj>-72.244332964</ogr:x_proj>
+    </extensions>
+  </wpt>
+  <wpt lat="41.804199172" lon="-72.25314335">
+    <ele>220.50647</ele>
+    <time>2012-06-27T08:44:46Z</time>
+    <name>UConn1</name>
+    <cmt>UConn1</cmt>
+    <desc>27-JUN-12 8:44:46AM</desc>
+    <src>garmin GPSMap60CSX </src>
+    <sym>Custom 1</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <ogr:lat>41.804199172</ogr:lat>
+      <ogr:lon>-72.25314335</ogr:lon>
+      <ogr:y_proj>41.804199172</ogr:y_proj>
+      <ogr:x_proj>-72.25314335</ogr:x_proj>
+      <ogr:ltime>2012/06/27 04:44:46</ogr:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="41.80387" lon="-72.249737196">
+    <ele>225.553345</ele>
+    <time>2012-06-27T09:10:19Z</time>
+    <name>UConn2</name>
+    <cmt>UConn2</cmt>
+    <desc>27-JUN-12 9:10:19AM</desc>
+    <src>garmin GPSMap60CSX </src>
+    <sym>Custom 1</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <ogr:lat>41.80387</ogr:lat>
+      <ogr:lon>-72.249737196</ogr:lon>
+      <ogr:y_proj>41.803813437</ogr:y_proj>
+      <ogr:x_proj>-72.249737196</ogr:x_proj>
+      <ogr:ltime>2012/06/27 05:10:19</ogr:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="41.806539148" lon="-72.248480497">
+    <ele>193.109131</ele>
+    <time>2012-06-27T09:29:55Z</time>
+    <name>UConn3</name>
+    <cmt>UConn3</cmt>
+    <desc>27-JUN-12 9:29:55AM</desc>
+    <src>garmin GPSMap60CSX </src>
+    <sym>Custom 1</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <ogr:lat>41.806539148</ogr:lat>
+      <ogr:lon>-72.248480497</ogr:lon>
+      <ogr:y_proj>41.806539148</ogr:y_proj>
+      <ogr:x_proj>-72.248480497</ogr:x_proj>
+      <ogr:ltime>2012/06/27 05:29:55</ogr:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="41.805994827" lon="-72.254539607">
+    <ele>196.233398</ele>
+    <time>2012-06-27T11:50:40Z</time>
+    <name>UConn4</name>
+    <cmt>UConn4</cmt>
+    <desc>27-JUN-12 11:50:40AM</desc>
+    <src>garmin GPSMap60CSX </src>
+    <sym>Custom 1</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <ogr:lat>41.805994827</ogr:lat>
+      <ogr:lon>-72.254539607</ogr:lon>
+      <ogr:y_proj>41.805994827</ogr:y_proj>
+      <ogr:x_proj>-72.254539607</ogr:x_proj>
+      <ogr:ltime>2012/06/27 07:50:40</ogr:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="41.807992486" lon="-72.256876901">
+    <ele>194.551025</ele>
+    <time>2012-06-27T12:00:59Z</time>
+    <name>UConn5</name>
+    <cmt>UConn5</cmt>
+    <desc>27-JUN-12 12:00:59PM</desc>
+    <src>garmin GPSMap60CSX </src>
+    <sym>Custom 1</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <ogr:lat>41.807992486</ogr:lat>
+      <ogr:lon>-72.256876901</ogr:lon>
+      <ogr:y_proj>41.807992486</ogr:y_proj>
+      <ogr:x_proj>-72.256876901</ogr:x_proj>
+      <ogr:ltime>2012/06/27 08:00:59</ogr:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="41.814110437" lon="-72.252218993">
+    <ele>198.156006</ele>
+    <time>2012-06-28T09:19:04Z</time>
+    <name>UConn6</name>
+    <cmt>UConn6</cmt>
+    <desc>28-JUN-12 9:19:04AM</desc>
+    <src>garmin GPSMap60CSX </src>
+    <sym>Custom 1</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <ogr:lat>41.814110437</ogr:lat>
+      <ogr:lon>-72.252218993</ogr:lon>
+      <ogr:y_proj>41.814110437</ogr:y_proj>
+      <ogr:x_proj>-72.252218993</ogr:x_proj>
+      <ogr:ltime>2012/06/28 05:19:04</ogr:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="41.809269637" lon="-72.259813501">
+    <ele>182.053955</ele>
+    <time>2012-06-28T09:52:04Z</time>
+    <name>UConn7</name>
+    <cmt>UConn7</cmt>
+    <desc>28-JUN-12 9:52:04AM</desc>
+    <src>garmin GPSMap60CSX </src>
+    <sym>Custom 1</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <ogr:lat>41.809269637</ogr:lat>
+      <ogr:lon>-72.259813501</ogr:lon>
+      <ogr:y_proj>41.809269637</ogr:y_proj>
+      <ogr:x_proj>-72.259813501</ogr:x_proj>
+      <ogr:ltime>2012/06/28 05:52:04</ogr:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="41.812793389" lon="-72.259328943">
+    <ele>197.19458</ele>
+    <time>2012-06-28T10:05:32Z</time>
+    <name>UConn8</name>
+    <cmt>UConn8</cmt>
+    <desc>28-JUN-12 10:05:32AM</desc>
+    <src>garmin GPSMap60CSX </src>
+    <sym>Custom 1</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <ogr:lat>41.812793389</ogr:lat>
+      <ogr:lon>-72.259328943</ogr:lon>
+      <ogr:y_proj>41.812793389</ogr:y_proj>
+      <ogr:x_proj>-72.259328943</ogr:x_proj>
+      <ogr:ltime>2012/06/28 06:05:32</ogr:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="41.813447848" lon="-72.248080513">
+    <ele>188.062256</ele>
+    <time>2012-06-28T10:41:29Z</time>
+    <name>UConn9</name>
+    <cmt>UConn9</cmt>
+    <desc>28-JUN-12 10:41:29AM</desc>
+    <src>garmin GPSMap60CSX </src>
+    <sym>Custom 1</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <ogr:lat>41.813447848</ogr:lat>
+      <ogr:lon>-72.248080513</ogr:lon>
+      <ogr:y_proj>41.813447848</ogr:y_proj>
+      <ogr:x_proj>-72.248080513</ogr:x_proj>
+      <ogr:ltime>2012/06/28 06:41:29</ogr:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="41.81469826" lon="-72.245465778">
+    <ele>194.070435</ele>
+    <time>2012-06-28T13:06:42Z</time>
+    <name>UConn10</name>
+    <cmt>UConn10</cmt>
+    <desc>28-JUN-12 1:06:42PM</desc>
+    <src>garmin GPSMap60CSX </src>
+    <sym>Custom 1</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <ogr:lat>41.81469826</ogr:lat>
+      <ogr:lon>-72.245465778</ogr:lon>
+      <ogr:y_proj>41.81469826</ogr:y_proj>
+      <ogr:x_proj>-72.245465778</ogr:x_proj>
+      <ogr:ltime>2012/06/28 09:06:42</ogr:ltime>
+    </extensions>
+  </wpt>
+  <wpt lat="41.820300976" lon="-72.240071772">
+    <ele>150.811401</ele>
+    <time>2012-06-28T13:39:04Z</time>
+    <name>UConn11</name>
+    <cmt>28-JUN-12 1:39:04PM</cmt>
+    <desc>28-JUN-12 1:39:04PM</desc>
+    <src>garmin GPSMap60CSX </src>
+    <sym>Custom 1</sym>
+    <type>WAYPOINT</type>
+    <extensions>
+      <ogr:lat>41.820300976</ogr:lat>
+      <ogr:lon>-72.240071772</ogr:lon>
+      <ogr:y_proj>41.820300976</ogr:y_proj>
+      <ogr:x_proj>-72.240071772</ogr:x_proj>
+      <ogr:ltime>2012/06/28 09:39:04</ogr:ltime>
+    </extensions>
+  </wpt>
+</gpx>
